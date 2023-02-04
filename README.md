@@ -26,7 +26,7 @@ I would love to track more pages and expand on this idea. If you have suggestion
 
 Every 12 hours, an Azure function will scrape pages and check for changes. If it finds updates, it will create a commit and release. If you watch this repo, you will receive an email upon each release.
 
-If you don't want any emails, just star the repo and pop in once in a while to check out the history on the files, i.e. [/pages/d365-finance.txt]().
+If you don't want any emails, just star the repo and pop in once in a while to check out the history on the files, i.e. [/pages/d365-finance-deprecations.txt](https://github.com/tcorcor1/d365-finance-ops-deprecation-tracker/blob/main/pages/d365-finance-deprecations.txt).
 
 ### Tech used
 
