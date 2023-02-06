@@ -1,0 +1,51 @@
+# Removed or deprecated features in Dynamics 365 Human resources  
+Article													  07/22/2022  2 minutes to read  
+																	2 contributors
+															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal from Microsoft Dynamics 365 Human resources.
+
+  A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and might be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
+
+## Features removed or deprecated in Human resources### New LCS project creation in Human resources (stand-alone)Provision Human resources (en-us/hr-admin-setup-provisio)
+
+
+
+
+Reason for deprecation/removal
+Replaced with project creation on the finance and operations infrastructure. To learn more about the infrastructure merge, see Dynamics 365 Human resource infrastructure merge FAQ.
+
+Replaced by another feature?
+Yes
+
+Product areas affected
+Application
+
+Deployment option
+All
+
+Status
+Deprecated: As of July 2022, we no longer support creating new projects in Human resources (stand-alone).
+
+
+
+
+### Production environment provisioning on Human resources (stand-alone)
+
+
+Reason for deprecation/removal
+Replaced with environment provisioning on the finance and operations infrastructure. To learn more about the infrastructure merge, see Dynamics 365 Human resource infrastructure merge FAQ.
+
+Replaced by another feature?
+Yes
+
+Product areas affected
+Application
+
+Deployment option
+All
+
+Status
+Deprecated: As of July 2022, we no longer support provisioning HR production environments on Human resources (stand-alone).
+
+
+
+
