@@ -20,7 +20,7 @@ Repository designed for tracking and notifying subscribers on changes to Microso
 - [Removed or deprecated features in Dynamics 365 Project Operations](https://learn.microsoft.com/en-us/dynamics365/project-operations/whats-new/removed-depreciated-features-project)
 - [Removed or deprecated platform features](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/get-started/removed-deprecated-features-platform-updates)
 
-I would love to track more pages and expand on this idea. If you have suggestions for pages please leave a comment on my [blog post](https://tldr-dynamics.com/blog/power-platform-deprecation-tracker) or drop an issue here.
+I would love to track more pages and expand on this idea. If you have suggestions for pages please leave a comment on my [blog post](https://tldr-dynamics.com/blog/d365-finance-ops-deprecation-tracker) or drop an issue here.
 
 ### How it works
 
