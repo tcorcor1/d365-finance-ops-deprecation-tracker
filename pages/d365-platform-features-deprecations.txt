@@ -1,6 +1,6 @@
 # Removed or deprecated platform features  
-Article													  11/21/2022  18 minutes to read  
-																	17 contributors
+Article													  02/27/2023  18 minutes to read  
+																	18 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature is not in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
@@ -42,7 +42,7 @@ Yes
 Yes
 Yes: Azure Active Directory or Microsoft admin portal.
 
-Impact analyis
+Impact analysis
 No
 Yes
 No
@@ -72,7 +72,7 @@ No
 Yes
 Yes: Data Import Export Framework (DIXF)
 
-Envrionment upgrade
+Environment upgrade
 No
 Yes
 Yes: One Version service updates are available.
@@ -142,7 +142,7 @@ Reason for deprecation/removal
 We're removing the following list of cipher suites to comply with our current security protocols.TLS_RSA_WITH_AES_256_GCM_SHA384TLS_RSA_WITH_AES_128_GCM_SHA256TLS_RSA_WITH_AES_256_CBC_SHA256TLS_RSA_WITH_AES_128_CBC_SHA256TLS_RSA_WITH_AES_256_CBC_SHATLS_RSA_WITH_AES_256_CBC_SHA
 
 Replaced by another feature?
-Beginning January, 2023, customers can only use ourâ¯standard cipher suites. This change impacts your clients and servers that communicate with our servers, for example, it may impact your third party integrations which are not adhering to ourâ¯standard cipher suites.
+Beginning January, 2023, customers can only use ourâ¯standard cipher suites. This change impacts your clients and servers that communicate with our servers, for example, it may impact your third party integrations, that aren't adhering to ourâ¯standard cipher suites.
 
 Product areas affected
 Finance and operations apps
@@ -181,7 +181,7 @@ Deprecated. End of support date is targeted for October 2024.
 
 
 Reason for deprecation/removal
-Horizontally-scrolling pages align to out-dated layout patterns which has known usability and accessibility issues.
+Horizontally-scrolling pages align to out-dated layout patterns that have known usability and accessibility issues.
 
 Replaced by another feature?
 No, but other tab styles are still available.
@@ -202,7 +202,7 @@ Deprecated.
 
 
 Reason for deprecation/removal
-We are removing support for XML URL resolution since this has been identified as a potential security vulnerability. This means that external resources associated with XML files will no longer be resolved.
+We're removing support for XML URL resolution since this has been identified as a potential security vulnerability. This means that external resources associated with XML files will no longer be resolved.
 
 Replaced by another feature?
 No.
@@ -235,7 +235,7 @@ Deployment option
 All
 
 Status
-Deprecated Exception: Customers who are currently using XLST scripting. They can continue to use it until they update to version 10.0.30 or later. For earlier versions, the exception will expire effective January 31, 2023. Customers with this exception have received a notification in the Message center available in the Microsoft 365 Admin Center.
+Deprecated Exception: Customers who are currently using XLST scripting can continue to use it until they update to version 10.0.30 or later. For earlier versions, the exception will expire effective January 31, 2023. Customers with this exception have received a notification in the Message center available in the Microsoft 365 Admin Center.
 
 
 
@@ -247,7 +247,7 @@ Reason for deprecation/removal
 All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
 
 Replaced by another feature?
-Yes, there is now an automated system, which renders these capabilities obsolete.
+Yes, there's now an automated system, which renders these capabilities obsolete.
 
 Product areas affected
 SQL reports: Current DTU, Current DTU Details, Get Lock Details, List of Current Plan Guide, Get List of Query IDâs, Get the SQL query plan for a given Plan ID, Get query plans and execution status, Get throttle config, Get wait stats, List most expensive queries
@@ -265,10 +265,10 @@ Removed
 
 
 Reason for deprecation/removal
-We are deprecating some SQL actions in LCS. All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
+We're deprecating some SQL actions in LCS. All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
 
 Replaced by another feature?
-Yes, there is now an automated system, which renders these capabilities obsolete.
+Yes, there's now an automated system, which renders these capabilities obsolete.
 
 Product areas affected
 SQL actions: Create a plan guide to force Plan ID, Create a plan guide to add table hints, Remove Plan guide, Disable/Enable page locks and lock escalation, Update statistics on a table, Rebuild Index, Create Index
@@ -307,7 +307,7 @@ Deprecated
 
 
 Reason for deprecation/removal
-There is no control to execute this event.
+There's no control to execute this event.
 
 Replaced by another feature?
 Yes, move existing methods subscribed to by the OnDBSynchronize event to a SysSetup extended class.
@@ -373,7 +373,7 @@ Reason for deprecation/removal
 All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
 
 Replaced by another feature?
-Yes, there is now an automated system, which renders these capabilities obsolete.
+Yes, there's now an automated system, which renders these capabilities obsolete.
 
 Product areas affected
 SQL reports: Current DTU, Current DTU Details, Get Lock Details, List of Current Plan Guide, Get List of Query IDâs, Get the SQL query plan for a given Plan ID, Get query plans and execution status, Get throttle config, Get wait stats, List most expensive queries
@@ -391,10 +391,10 @@ Deprecated: Planned removal date is October 2021.
 
 
 Reason for deprecation/removal
-We are deprecating some SQL actions in LCS. All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
+We're deprecating some SQL actions in LCS. All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
 
 Replaced by another feature?
-Yes, there is now an automated system, which renders these capabilities obsolete.
+Yes, there's now an automated system, which renders these capabilities obsolete.
 
 Product areas affected
 SQL actions: Create a plan guide to force Plan ID, Create a plan guide to add table hints, Remove Plan guide, Disable/Enable page locks and lock escalation, Update statistics on a table, Rebuild Index, Create Index
@@ -412,7 +412,7 @@ Deprecated: Planned removal date is October 2021.
 
 
 Reason for deprecation/removal
-We are deprecating the Globalization portal in LCS as this feature has been superseded by other LCS-based services.
+We're deprecating the Globalization portal in LCS as this feature has been superseded by other LCS-based services.
 
 Replaced by another feature?
 Yes, this feature is replaced by LCS Issue search and Dynamics regulatory alert submission service.
@@ -634,7 +634,7 @@ Deployment option
 All
 
 Status
-In version 10.0.13, the new grid control is generally available, and customers can optionally turn on this feature. The new grid control will become on by default with the October 2021 release and is currently targeted to be mandatory in April 2022. When the new grid control becomes mandatory, the forceLegacyGrid() API will no longer be honored.
+The new grid control is mandatory with the October 2022 release (version 10.0.29). The forceLegacyGrid() API is currently still being honored if the old grid is still needed; however, this API is targeted to be deprecated by the October 2023 release. When the deprecation of this API is announced, it will be available for at least 12 months before no longer being available.
 
 
 
