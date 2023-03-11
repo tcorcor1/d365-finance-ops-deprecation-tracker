@@ -1,13 +1,38 @@
 # Removed or deprecated features in Dynamics 365 Commerce  
-Article													  08/23/2022  11 minutes to read  
-																	11 contributors
-															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal from Dynamics 365 Commerce.
+Article													  03/11/2023  12 minutes to read  
+																	12 contributors
+															Feedback## In this articleImportant
+
+Some or all of the functionality noted in this article is available as part of a preview release. The content and the functionality are subject to change. For more information about preview releases, see One version service updates FAQ (./../fin-ops-core/fin-ops/get-started/one-versio).
+
+This article describes features that have been removed, or that are planned for removal from Dynamics 365 Commerce.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
 Note
 
 Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of finance and operations apps.
+
+## Features removed or deprecated in the Commerce 10.0.33 release### Accessibility Insights integration within site builder
+
+
+Reason for deprecation/removal
+Similar results can be achieved with less latency by installing the Accessibility Insights browser plug-in from https://accessibilityinsights.io/. The reasons for deprecation are low feature usage, maintenance costs, and the availability of a more efficient browser plug-in.
+
+Replaced by another feature?
+No
+
+Product areas affected
+Site builder
+
+Deployment option
+All
+
+Status
+Deprecated: Functionality will be removed in spring 2023 and replaced with in-tool instructions to guide users to the Accessibility Insights browser plug-in.
+
+
+
 
 ## Features removed or deprecated in the Commerce 10.0.29 release### Commerce parameters setting - Allow price adjustments to increase product price
 
