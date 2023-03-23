@@ -1,5 +1,5 @@
 # Removed or deprecated features in Dynamics 365 Supply Chain Management  
-Article													  11/03/2022  5 minutes to read  
+Article													  03/22/2023  6 minutes to read  
 																	12 contributors
 															Feedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
 
@@ -25,7 +25,7 @@ Deployment option
 Cloud and on-premises
 
 Status
-Being deprecated. The Stock transfer orders that have tax on the transfer price functionality won't receive support with bug fixes and security fixes.After April 2023, customers will be asked to use the improved functionality, Stock transfer orders for India, by default. After October 2023, the Stock transfer orders that have tax on the transfer price functionality will be no longer be available, and customers will be asked to move to the improved Stock transfer orders for India functionality.For more information, see Stock transfer orders for India.
+Being deprecated. The Stock transfer orders that have tax on the transfer price functionality won't receive support with bug fixes and security fixes.After April 2023, customers will be asked to use the improved functionality, Stock transfer orders for India, by default. After October 2023, the Stock transfer orders that have tax on the transfer price functionality will no longer be available, and customers will be asked to move to the improved Stock transfer orders for India functionality.For more information, see Stock transfer orders for India.
 
 
 
@@ -109,7 +109,7 @@ Deployment option
 Cloud only. Planning Optimization is not supported with on-premises deployments.
 
 Status
-Deprecated. By April 1, 2022, manufacturing scenarios will no longer be supported for the built-in Supply Chain Management master planning engine. As of that date, Microsoft will stop all active development on manufacturing scenarios for the built-in planning engine, will not release any new features, and will only release critical bug fixes. After that date, all companies that require support for manufacturing scenarios must use Planning Optimization for their master planning calculations. Planning Optimization is expected to fully support manufacturing scenarios by October 2022. For more information, see Deprecated master planning overview.Companies with on-premises deployments of Supply Chain Management may continue to use the built-in master planning engine for manufacturing scenarios after April 2022. However, no more feature enhancements will be provided.
+Deprecated. On April 1, 2022, support for manufacturing scenarios was discontinued for the built-in master planning engine for Supply Chain Management. As of that date, Microsoft stopped all active development on manufacturing scenarios for the built-in planning engine, stopped releasing new features, and only released critical bug fixes.  Since that date, all companies that require support for manufacturing scenarios have been required to use Planning Optimization for their master planning calculations. For more information, see Deprecated master planning overview.Since April 2022, only companies with on-premises deployments of Supply Chain Management have been able to continue using the built-in master planning engine for manufacturing scenarios. However, as of March 2023, Microsoft has now fully discontinued all support for the built-in master planning engine for all types of deployments. Hereafter, Microsoft will only provide support for critical blocking issues (which result in no planned orders being created or the continuous failure of built-in master planning). The built-in master planning engine is now referred to as the deprecated master planning engine.
 
 
 
@@ -130,7 +130,7 @@ Deployment option
 Cloud only. Planning Optimization is not supported with on-premises deployments.
 
 Status
-Deprecated. By April 1, 2021, distribution scenarios will no longer be supported with the built-in Dynamics 365 Supply Chain Management master planning engine. For distribution scenarios, customers must use Planning Optimization for master planning calculations. For more information, see Deprecated master planning overview. Customers with on-premises deployments of Dynamics 365 Supply Chain Management may continue to use the Supply Chain Management master planning engine for distribution scenarios after April 2021. However, no more feature enhancements will be provided.
+Deprecated. On April 1, 2021, support for distribution scenarios was discontinued for the built-in master planning engine for Supply Chain Management. Since then, customers running distribution scenarios have been required to use Planning Optimization for master planning calculations. For more information, see Deprecated master planning overview.Since April 2021, only companies with on-premises deployments of Supply Chain Management have been able to continue using the built-in master planning engine for distribution scenarios. However, as of March 2023, Microsoft has now fully discontinued all support for the built-in master planning engine for all types of deployments. Hereafter, Microsoft will only provide support for critical blocking issues (which result in no planned orders being created or the continuous failure of built-in master planning). The built-in master planning engine is now referred to as the deprecated master planning engine.
 
 
 
