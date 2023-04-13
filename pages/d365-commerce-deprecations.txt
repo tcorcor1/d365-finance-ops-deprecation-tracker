@@ -1,5 +1,5 @@
 # Removed or deprecated features in Dynamics 365 Commerce  
-Article													  03/11/2023  12 minutes to read  
+Article													  03/11/2023  
 																	12 contributors
 															Feedback## In this articleImportant
 
