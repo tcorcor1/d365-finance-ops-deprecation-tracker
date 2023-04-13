@@ -1,5 +1,5 @@
 # Removed or deprecated features in Dynamics 365 Supply Chain Management  
-Article													  03/22/2023  6 minutes to read  
+Article													  03/22/2023  
 																	12 contributors
 															Feedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
 
