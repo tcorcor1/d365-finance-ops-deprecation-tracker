@@ -1,5 +1,5 @@
 # Removed or deprecated platform features  
-Article													  03/17/2023  19 minutes to read  
+Article													  03/17/2023  
 																	18 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
 
