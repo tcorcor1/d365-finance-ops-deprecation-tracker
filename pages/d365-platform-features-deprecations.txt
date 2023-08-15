@@ -3,15 +3,36 @@ Article													  03/17/2023
 																	18 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
 
-  A   removed   feature is no longer available in the product.  A   deprecated   feature is not in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
+  A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
 Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e/global/axtechrefrep_6). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of finance and operations apps.
+
+## Feature deprecation effective January 2024### System Admin &gt; Inquiries &gt; User Log
+
+
+Reason for deprecation/removal
+The Inquiries &gt; User Log is a legacy page that was built for the older client/server architecture. The information on this page isn't always accurate and can be misleading.
+
+Replaced by another feature?
+In Microsoft Dynamics 365 finance and operations apps, this information is captured in telemetry and Lifecycle Services has details. For more information, see Track user sign-ins.
+
+Product areas affected
+System Administration
+
+Deployment option
+All
+
+Status
+The User Log page will be removed by Jan 12 2024 (10.0.38/PU62)
+
+
+
 
 ## Feature deprecation effective July 2023### Non-Azure AD external user sign-in
 
 
 Reason for deprecation/removal
-We're deprecating access for external users who aren't present in the Microsoft Azure Active Directory (Azure AD) tenant that's used for your finance and operations environment. Microsoft has identified this type of access as a security issue. For more information, see Security alert: common or tenanted passthrough tokens alert.
+We're deprecating access for external users who aren't present in the Microsoft Azure Active Directory (Azure AD) tenant that's used for your finance and operations environment. Microsoft has identified this type of access as a security issue.
 
 Replaced by another feature?
 Yes, finance and operations apps already support business-to-business (B2B) collaboration that provides a secure way to provide access for external guest users. For more information, see B2B collaboration overview. If you want, you can take proactive action by inviting and onboarding external users from the Azure AD portal. No changes are required through finance and operations apps. We will share customer communications with affected customers, and will also share instructions for fixing this issue in version 10.0.35 or later of finance and operations apps.
@@ -181,7 +202,7 @@ Deprecated. Customers must upgrade their servers before January, 2023. For more 
 
 
 Reason for deprecation/removal
-We are deprecating the finance and operations (Dynamics 365) mobile application and platform to consolidate to a single mobile platform, which is Power Apps.
+We're deprecating the finance and operations (Dynamics 365) mobile application and platform to consolidate to a single mobile platform, which is Power Apps.
 
 Replaced by another feature?
 Yes, mobile experiences over finance and operations app data can be built with Power Platform integration. See the blog post and Building mobile experiences for more details.
@@ -265,7 +286,7 @@ Deprecated Exception: Customers who are currently using XLST scripting can conti
 
 
 Reason for deprecation/removal
-All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
+All activities and monitoring will be performed internally, by the platform, through automation. This won't require any manual intervention.
 
 Replaced by another feature?
 Yes, there's now an automated system, which renders these capabilities obsolete.
@@ -286,7 +307,7 @@ Removed
 
 
 Reason for deprecation/removal
-We're deprecating some SQL actions in LCS. All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
+We're deprecating some SQL actions in LCS. All activities and monitoring will be performed internally, by the platform, through automation. This won't require any manual intervention.
 
 Replaced by another feature?
 Yes, there's now an automated system, which renders these capabilities obsolete.
@@ -391,7 +412,7 @@ Deprecated. The Skype enabled setting has been turned off starting in release 10
 
 
 Reason for deprecation/removal
-All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
+All activities and monitoring will be performed internally, by the platform, through automation. This won't require any manual intervention.
 
 Replaced by another feature?
 Yes, there's now an automated system, which renders these capabilities obsolete.
@@ -412,7 +433,7 @@ Deprecated: Planned removal date is October 2021.
 
 
 Reason for deprecation/removal
-We're deprecating some SQL actions in LCS. All activities and monitoring will be performed internally, by the platform, through automation. This will not require any manual intervention.
+We're deprecating some SQL actions in LCS. All activities and monitoring will be performed internally, by the platform, through automation. This won't require any manual intervention.
 
 Replaced by another feature?
 Yes, there's now an automated system, which renders these capabilities obsolete.
@@ -487,7 +508,7 @@ Deployment option
 All
 
 Status
-Deprecated: Upon updating, the previous X++ tools will be removed from Visual Studio 2015, and the updated tools will not install on Visual Studio 2015. There is no impact on hosted builds. For build virtual machines, the build pipeline (build definition) needs to be manually updated to change the dependency from MSBuild 14.0 (Visual Studio 2015) to MSBuild 15.0 (Visual Studio 2017) as described in Update a legacy pipeline in Azure Pipelines.
+Deprecated: Upon updating, the previous X++ tools will be removed from Visual Studio 2015, and the updated tools won't install on Visual Studio 2015. There isn't an impact on hosted builds. For build virtual machines, the build pipeline (build definition) needs to be manually updated to change the dependency from MSBuild 14.0 (Visual Studio 2015) to MSBuild 15.0 (Visual Studio 2017) as described in Update a legacy pipeline in Azure Pipelines.
 
 
 
@@ -562,7 +583,7 @@ Reason for deprecation/removal
 Metadata hotfixes are no longer supported with the One Version service updates that were introduced in July 2018 with version 8.1.
 
 Replaced by another feature?
-Individual metadata hotfixes are not available for supported versions. Cumulative quality updates are applied instead.
+Individual metadata hotfixes aren't available for supported versions. Cumulative quality updates are applied instead.
 
 Product areas affected
 Visual Studio add-ins
@@ -580,7 +601,7 @@ With version 10.0.15, the add-in is no longer included in the Visual Studio tool
 
 
 Reason for deprecation/removal
-This is a legacy page that was built for previous client/server architecture. The information on this page is not always accurate, which can be confusing and misleading.
+This is a legacy page that was built for previous client/server architecture. The information on this page isn't always accurate, which can be confusing and misleading.
 
 Replaced by another feature?
 We will provide a new page in a future update.
@@ -739,7 +760,7 @@ Deployment option
 All
 
 Status
-Virtual machines deployed on version 10.0.13 (Platform update 37) or later contain Visual Studio 2017. Version 10.0.16 (Platform update 40) is the final release with support for Visual Studio 2015. Virtual machines with only Visual Studio 2015 will not be able to update to version 10.0.17 (Platform update 41).
+Virtual machines deployed on version 10.0.13 (Platform update 37) or later contain Visual Studio 2017. Version 10.0.16 (Platform update 40) is the final release with support for Visual Studio 2015. Virtual machines with only Visual Studio 2015 won't be able to update to version 10.0.17 (Platform update 41).
 
 
 
@@ -811,7 +832,7 @@ The user selection drop-down list was removed from the request change dialog box
 
 
 Reason for deprecation/removal
-Navigation URLs embedded in documents rendered by the service may contain sensitive business data. We are removing support for embedded drill-through links in documents as a security precaution to further protect customer's data. Users will also benefit from improved performance while interactively producing documents as a result of this change.
+Navigation URLs embedded in documents rendered by the service may contain sensitive business data. We're removing support for embedded drill-through links in documents as a security precaution to further protect customer's data. Users will also benefit from improved performance while interactively producing documents as a result of this change.
 
 Replaced by another feature?
 No
