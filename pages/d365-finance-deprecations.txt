@@ -1,6 +1,6 @@
 # Removed or deprecated features in Dynamics 365 Finance  
 Article													  06/08/2023  
-																	14 contributors
+																	16 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal from Dynamics 365 Finance.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature is not in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
@@ -69,7 +69,7 @@ Deployment option
 All
 
 Status
-Deprecated: After April 2023, the Revenue recognition functionality in Dynamics 365 Finance will no longer receive support with bug fixes. Customers will be asked to use the improved functionality, Subscription billing. In October 2023, the Revenue recognition feature will no longer be available. Customers will be asked to move to the improved Subscription billing functionality. The bundle feature, which is part of revenue recognition, is planned to be replaced and released as a separate feature available in preview Summer 2023.
+Deprecated: After April 2023, the Revenue recognition functionality in Dynamics 365 Finance will no longer receive support with bug fixes. Customers will be asked to use the improved functionality, Subscription billing. In January 2024, the Revenue recognition feature will no longer be available. Customers will be asked to move to the improved Subscription billing functionality. The bundle feature, which is part of revenue recognition, is planned to be replaced and released as a separate feature available in 10.0.36.
 
 
 
