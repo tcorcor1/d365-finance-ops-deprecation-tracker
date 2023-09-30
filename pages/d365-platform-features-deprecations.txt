@@ -1,7 +1,6 @@
 # Removed or deprecated platform features  
-Article													  09/07/2023  
-																	18 contributors
-															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
+Article													  09/29/2023  
+1 contributor															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -19,7 +18,7 @@ SHA256 - To ensure the security and integrity of your system and data, we strong
 
 
 
-Migrating to SHA256 is straightforward: You need to use signature version 2 or keep this field empty while generating license using AxUtil tool to generate a new license using SHA256. For more information, see Independent software vendor (ISV) licensing (./dev-tools/isv-licensin). |
+Migrating to SHA256 is straightforward: You need to use signature version 2 or keep this field empty while generating license using AxUtil tool to generate a new license using SHA256. For more information, see Independent software vendor (ISV) licensing (./../dev-itpro/dev-tools/isv-licensin). |
 | Product areas affected         | System Administration  |
 | Deployment option              | All |
 | Status                         | Support for SHA1 is removed by February 2024 (10.0.39/PU63) |
@@ -866,5 +865,5 @@ This feature is actively being removed from the service.The modern client offers
 
 
 
-## Previous announcements about removed or deprecated featuresTo learn more about features that have been removed or deprecated in previous releases, see Removed or deprecated features in previous releases (./migration-upgrade/deprecated-feature).
+## Previous announcements about removed or deprecated featuresTo learn more about features that have been removed or deprecated in previous releases, see Removed or deprecated features in previous releases (./../dev-itpro/migration-upgrade/deprecated-feature).
 
