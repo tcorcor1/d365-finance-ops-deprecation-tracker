@@ -76,7 +76,7 @@ Deprecated. The job card device will receive support with bug and security fixes
 
 
 Reason for deprecation/removal
-Effective April 2021, Supply Chain Management - Warehousing (the warehouse app) is deprecated and won't be supported after April 2022. It is now replaced by the Warehouse Management mobile app, which was released with version 10.0.17 of Supply Chain Management. The new app is a complete replacement but uses same underlying framework, which makes migration easy. If needed, the two apps can be used side-by-side to help users gradually adjust as they learn to use the new app.For more information about the new Warehouse Management mobile app, see Warehouse Management mobile application and Install and connect the Warehouse Management mobile app.
+Effective April 2021, Supply Chain Management - Warehousing (the warehouse app) is deprecated and won't be supported after April 2022. It is now replaced by the Warehouse Management mobile app, which was released with version 10.0.17 of Supply Chain Management. The new app is a complete replacement but uses same underlying framework, which makes migration easy. If needed, the two apps can be used side-by-side to help users gradually adjust as they learn to use the new app.For more information about the new Warehouse Management mobile app, see Warehouse Management mobile application and Install the Warehouse Management mobile app.
 
 Replaced by another feature?
 Yes, replaced by the new Warehouse Management mobile app.
