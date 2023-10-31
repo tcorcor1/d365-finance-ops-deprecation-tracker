@@ -1,13 +1,34 @@
 # Removed or deprecated features in Dynamics 365 Supply Chain Management  
-Article													  10/25/2023  
+Article													  10/30/2023  
 																	13 contributors
 															Feedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
 
-  A   removed   feature is no longer available in the product.  A   deprecated   feature is not in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
+  A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and might be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
 Note
 
 Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of finance and operations apps.
+
+## Features removed or deprecated in the Supply Chain Management 10.0.41 release### Inventory transactions support for internal warehouse operations
+
+
+Reason for deprecation/removal
+Using inventory transactions to track on-hand inventory for internal warehouse operations has well-known performance issues.
+
+Replaced by another feature?
+Yes. Warehouse-specific inventory transactions, which have been available since version 10.0.32, replace the older inventory transactions for tracking internal warehouse operations.
+
+Product areas affected
+Supply Chain Management - Warehouse management
+
+Deployment option
+Cloud and on-premises
+
+Status
+Supported until version 10.0.40. As of version 10.0.41, inventory transactions will be deprecated for tracking on-hand inventory for internal warehouse operations. Existing customers will be able to continue using this scenario after that version, but new features and bug fixes for this scenario will only be implemented for warehouse-specific inventory transactions.Approximately one year after the release of version 10.0.41, support for this scenario will be removed and all customers will be required to move to warehouse-specific inventory transactions for tracking on-hand inventory for internal warehouse operations.
+
+
+
 
 ## Features removed or deprecated in the Supply Chain Management 10.0.37 release### Service-based authentication methods for the Warehouse Management mobile app
 
@@ -67,7 +88,7 @@ Deployment option
 Cloud and on-premises
 
 Status
-Being deprecated. The Stock transfer orders that have tax on the transfer price functionality won't receive support with bug fixes and security fixes.After April 2023, customers will be asked to use the improved functionality, Stock transfer orders for India, by default. After October 2023, the Stock transfer orders that have tax on the transfer price functionality will no longer be available, and customers will be asked to move to the improved Stock transfer orders for India functionality.For more information, see Stock transfer orders for India.
+Removed. The Stock transfer orders that have tax on the transfer price functionality has been removed as of October 2023. Customers must instead use the improved functionality, Stock transfer orders for India. For more information, see Stock transfer orders for India.
 
 
 
@@ -88,7 +109,7 @@ Deployment option
 Cloud and on-premises
 
 Status
-Deprecated. The job card device will receive support with bug and security fixes, but feature enhancements will no longer be provided. After April 2022, the job card device will no longer be supported and customers will be asked to move to the new production floor execution interface.
+Removed. As of April 2022, the job card device is no longer supported and customers must use the new production floor execution interface.
 
 
 
@@ -97,7 +118,7 @@ Deprecated. The job card device will receive support with bug and security fixes
 
 
 Reason for deprecation/removal
-Effective April 2021, Supply Chain Management - Warehousing (the warehouse app) is deprecated and won't be supported after April 2022. It is now replaced by the Warehouse Management mobile app, which was released with version 10.0.17 of Supply Chain Management. The new app is a complete replacement but uses same underlying framework, which makes migration easy. If needed, the two apps can be used side-by-side to help users gradually adjust as they learn to use the new app.For more information about the new Warehouse Management mobile app, see Warehouse Management mobile application and Install the Warehouse Management mobile app.
+Effective April 2021, Supply Chain Management - Warehousing (the warehouse app) is deprecated and won't be supported after April 2022. It's now replaced by the Warehouse Management mobile app, which was released with version 10.0.17 of Supply Chain Management. The new app is a complete replacement but uses same underlying framework, which makes migration easy.For more information about the new Warehouse Management mobile app, see Warehouse Management mobile application and Install the Warehouse Management mobile app.
 
 Replaced by another feature?
 Yes, replaced by the new Warehouse Management mobile app.
@@ -109,7 +130,7 @@ Deployment option
 Cloud and on-premises
 
 Status
-Deprecated. The warehouse app will receive support with bug and security fixes, but feature enhancements will no longer be provided. After April 2022, the old warehouse app will no longer be supported and customers will be asked to move to the new Warehouse Management mobile app. The old warehouse app will then be removed from the Microsoft Store and Google Play store.
+Removed. As of April 2022, the old warehouse app is no longer supported and has been removed from the Microsoft Store and Google Play store. Customers must now use the new Warehouse Management mobile app instead.
 
 
 
@@ -118,7 +139,7 @@ Deprecated. The warehouse app will receive support with bug and security fixes, 
 
 
 Reason for deprecation/removal
-Effective December 2020, Microsoft Internet Explorer 11 support for all Dynamics 365 products is deprecated, and Internet Explorer 11 wonât be supported after August 2021.This will impact customers who use Dynamics 365 products that are designed to be used through an Internet Explorer 11 interface. After August 2021, Internet Explorer 11 won't be supported for such Dynamics 365 products.
+Effective August 2021, Microsoft Internet Explorer 11 is no longer supported for use with Dynamics 365 products.
 
 Replaced by another feature?
 We recommend that customers transition to Microsoft Edge.
@@ -130,7 +151,7 @@ Deployment option
 All
 
 Status
-Deprecated. Internet Explorer 11 wonât be supported after August 2021.
+Removed. Support for Internet Explorer 11 was removed in August 2021.
 
 
 
@@ -169,10 +190,10 @@ Product areas affected
 Supply Chain Management - Master planning
 
 Deployment option
-Cloud only. Planning Optimization is not supported with on-premises deployments.
+Cloud only. Planning Optimization isn't supported for on-premises deployments.
 
 Status
-Deprecated. On April 1, 2021, support for distribution scenarios was discontinued for the built-in master planning engine for Supply Chain Management. Since then, customers running distribution scenarios have been required to use Planning Optimization for master planning calculations. For more information, see Deprecated master planning overview.Since April 2021, only companies with on-premises deployments of Supply Chain Management have been able to continue using the built-in master planning engine for distribution scenarios. However, as of March 2023, Microsoft has now fully discontinued all support for the built-in master planning engine for all types of deployments. Hereafter, Microsoft will only provide support for critical blocking issues (which result in no planned orders being created or the continuous failure of built-in master planning). The built-in master planning engine is now referred to as the deprecated master planning engine.
+Removed. On April 1, 2021, support for distribution scenarios was discontinued for the built-in master planning engine for Supply Chain Management. Since then, customers running distribution scenarios have been required to use Planning Optimization for master planning calculations. For more information, see Deprecated master planning overview.Since April 2021, only companies with on-premises deployments of Supply Chain Management have been able to continue using the built-in master planning engine for distribution scenarios. However, as of March 2023, Microsoft has now fully discontinued all support for the built-in master planning engine for all types of deployments. Hereafter, Microsoft will only provide support for critical blocking issues (which result in no planned orders being created or the continuous failure of built-in master planning). The built-in master planning engine is now referred to as the deprecated master planning engine.
 
 
 
