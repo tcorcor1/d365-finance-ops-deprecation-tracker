@@ -213,7 +213,7 @@ Reason for deprecation/removal
 We're removing the following list of cipher suites to comply with our current security protocols.TLS_RSA_WITH_AES_256_GCM_SHA384TLS_RSA_WITH_AES_128_GCM_SHA256TLS_RSA_WITH_AES_256_CBC_SHA256TLS_RSA_WITH_AES_128_CBC_SHA256TLS_RSA_WITH_AES_256_CBC_SHATLS_RSA_WITH_AES_256_CBC_SHA
 
 Replaced by another feature?
-Beginning January 2023, customers can only use ourâ¯standard cipher suites. This change impacts your clients and servers that communicate with our servers. For example, it may impact your third party integrations, that aren't adhering to ourâ¯standard cipher suites.
+Beginning January 2023, customers can only use ourâ¯standard cipher suites. This change impacts your clients and servers that communicate with our servers. For example, it may impact your third party integrations that aren't adhering to ourâ¯standard cipher suites.
 
 Product areas affected
 Finance and operations apps
@@ -633,7 +633,7 @@ Reason for deprecation/removal
 This is a legacy page that was built for previous client/server architecture. The information on this page isn't always accurate, which can be confusing and misleading.
 
 Replaced by another feature?
-We'll provide a new page in a future update.
+We'll provide a new page in a future update. As a workaround, use the table browser for the SysClientSessions table to view client sessions.
 
 Product areas affected
 System Administration
@@ -642,7 +642,7 @@ Deployment option
 All
 
 Status
-By October 2021 this form will be removed.
+This page will be removed in a future release.
 
 
 
