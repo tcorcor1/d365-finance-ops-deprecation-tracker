@@ -1,6 +1,6 @@
 # Removed or deprecated platform features  
 Article													  12/01/2023  
-																	2 contributors
+																	3 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
@@ -23,7 +23,7 @@ Deployment option
 All
 
 Status
-Deprecated. End of support date is targeted for October 2023.
+Deprecated. End of support date is targeted for March 2024.
 
 
 
