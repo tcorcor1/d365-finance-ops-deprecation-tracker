@@ -1,6 +1,6 @@
 # Removed or deprecated platform features  
-Article													  12/01/2023  
-																	3 contributors
+Article													  01/04/2024  
+																	5 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
@@ -74,6 +74,27 @@ All
 
 Status
 The User Log page will be removed by Jan 12 2024 (10.0.38/PU62)
+
+
+
+
+### Exchange email provider
+
+
+Reason for deprecation/removal
+The authentication mechanism that the Exchange email provider uses is being removed, and the Exchange provider never supported sovereign clouds.
+
+Replaced by another feature?
+Customers who use the Exchange email provider should migrate to the Microsoft Graph email provider. For more information, see Configure and send email.
+
+Product areas affected
+System administration
+
+Deployment option
+All
+
+Status
+The Exchange email provider will stop sending emails as of September 15, 2024.
 
 
 
