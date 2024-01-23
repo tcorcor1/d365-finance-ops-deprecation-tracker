@@ -1,5 +1,5 @@
 # Removed or deprecated features in Dynamics 365 Finance  
-Article													  06/08/2023  
+Article													  01/17/2024  
 																	17 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal from Dynamics 365 Finance.
 
@@ -8,6 +8,29 @@ Article													  06/08/2023
 Note
 
 Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e/global/axtechrefrep_6). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of finance and operations apps.
+
+## Features removed or deprecated in the Finance 10.0.39 release### Sales tax report for Estonia (design based on reporting codes)Sales tax report for Estonia (./localizations/estonia/emea-est-vat-statement-detail)
+
+
+
+
+Reason for deprecation/removal
+Replaced with a new value-added tax (VAT) declaration design, VAT declaration for Estonia.
+
+Replaced by another feature?
+Yes
+
+Product areas affected
+Application
+
+Deployment option
+All
+
+Status
+Deprecated: By February 1, 2025, we plan to no longer support the Sales tax report for Estonia (Estonian report layout). New VAT declaration XML (EE) and VAT declaration Excel (EE) Electronic reporting (ER) formats are introduced under the Tax declaration model.
+
+
+
 
 ## Features removed or deprecated in the Finance 10.0.36 release### &quot;FTA VAT Audit File (AE)&quot; Electronic reporting (ER) format using the &quot;Standard Audit File model mapping&quot; and &quot;FAF declaration&quot; menu item
 
