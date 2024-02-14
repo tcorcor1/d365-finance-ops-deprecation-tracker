@@ -1,5 +1,5 @@
 # Removed or deprecated features in Dynamics 365 Human resources  
-Article													  07/22/2022  
+Article														  07/22/2022  
 																	3 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal from Microsoft Dynamics 365 Human resources.
 
