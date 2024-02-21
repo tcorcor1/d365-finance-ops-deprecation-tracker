@@ -1,20 +1,20 @@
 # Removed or deprecated platform features  
-Article														  01/04/2024  
-																	5 contributors
+Article														  02/16/2024  
+																	6 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
 Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e/global/axtechrefrep_6). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of finance and operations apps.
 
-## Feature deprecation effective March 2024### Non-Azure AD external user sign-in
+## Feature deprecation effective March 2024### Non-Entra ID external user sign-in
 
 
 Reason for deprecation/removal
-We're deprecating access for external users who aren't present in the Microsoft Azure Active Directory (Azure AD) tenant that's used for your finance and operations environment. Microsoft has identified this type of access as a security issue.
+We're deprecating access for external users who aren't present in the Microsoft Azure Active Directory (Entra ID) tenant that's used for your finance and operations environment. Microsoft has identified this type of access as a security issue.
 
 Replaced by another feature?
-Yes, finance and operations apps already support business-to-business (B2B) collaboration that provides a secure way to provide access for external guest users. For more information, see B2B collaboration overview. If you want, you can take proactive action by inviting and onboarding external users from the Azure AD portal. No changes are required through finance and operations apps. We'll share customer communications with affected customers, and will also share instructions for fixing this issue in version 10.0.35 or later of finance and operations apps.
+Yes, finance and operations apps already support business-to-business (B2B) collaboration that provides a secure way to provide access for external guest users. For more information, see B2B collaboration overview. If you want, you can take proactive action by inviting and onboarding external users from the Microsoft Entra admin center. No changes are required through finance and operations apps. We'll share customer communications with affected customers, and will also share instructions for fixing this issue in version 10.0.35 or later of finance and operations apps.
 
 Product areas affected
 Finance and operations apps
@@ -95,6 +95,27 @@ All
 
 Status
 The Exchange email provider will stop sending emails as of September 15, 2024.
+
+
+
+
+## Feature deprecation effective October 2022### Microsoft SQL Server 14.x or older
+
+
+Reason for deprecation/removal
+We're discontinuing support for Microsoft SQL Server 14.x and older versions in Finance and Operations (Dynamics 365), as active support for 14.x ended in October 2022. Starting from 10.0.40 (PU 64), there may be SQL-related updates in FinOps that aren't compatible with older versions of MS SQL Server.
+
+Replaced by another feature?
+Yes, customers can use Microsoft SQL Server 15.x or higher with their Finance and Operations (Dynamics 365).
+
+Product areas affected
+Finance and operations apps
+
+Deployment option
+All
+
+Status
+Deprecated. End of support date is targeted for 10.0.28 (PU 52), which went out of support on October 21, 2022.
 
 
 
@@ -726,7 +747,7 @@ Deployment option
 All
 
 Status
-The new grid control is mandatory with the October 2022 release (version 10.0.29). The forceLegacyGrid() API is currently still being honored if the old grid is still needed; however, this API is targeted to be deprecated by the October 2023 release. When the deprecation of this API is announced, it is available for at least 12 months before no longer being available.
+The new grid control is mandatory with the October 2022 release (version 10.0.29). The forceLegacyGrid() API is currently still being honored if the old grid is still needed; however, this API is targeted to be deprecated by the October 2023 release. When the deprecation of this API is announced, it's available for at least 12 months before no longer being available.
 
 
 
