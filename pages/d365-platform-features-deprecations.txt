@@ -1,5 +1,5 @@
 # Removed or deprecated platform features  
-Article														  02/16/2024  
+Article														  03/12/2024  
 																	6 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
 
@@ -11,7 +11,7 @@ Detailed information about objects in finance and operations apps can be found i
 
 
 Reason for deprecation/removal
-We're deprecating access for external users who aren't present in the Microsoft Entra ID tenant that's used for your finance and operations environment. Microsoft has identified this type of access as a security issue. It implies any alias other than, for example, user@contoso.com (service to service or interactive) in the Contoso tenant context doesn't have access to Contoso's Dynamics 365 finance and operations environment.
+We're deprecating access for external users who aren't present in the Microsoft Entra ID tenant that's used for your finance and operations apps environment. Microsoft has identified this type of access as a security issue. For more information, see Manually add a new user.
 
 Replaced by another feature?
 Yes, finance and operations apps already support business-to-business (B2B) collaboration that provides a secure way to provide access for external guest users. For more information, see B2B collaboration overview. If you want, you can take proactive action by inviting and onboarding external users from the Microsoft Entra admin center. No changes are required through finance and operations apps. We'll share customer communications with affected customers, and will also share instructions for fixing this issue in version 10.0.35 or later of finance and operations apps.
@@ -252,7 +252,7 @@ No
 
 
 Reason for deprecation/removal
-We're removing the following list of cipher suites to comply with our current security protocols.TLS_RSA_WITH_AES_256_GCM_SHA384TLS_RSA_WITH_AES_128_GCM_SHA256TLS_RSA_WITH_AES_256_CBC_SHA256TLS_RSA_WITH_AES_128_CBC_SHA256TLS_RSA_WITH_AES_256_CBC_SHATLS_RSA_WITH_AES_256_CBC_SHA
+The following list of cipher suites is removed to comply with our current security protocols.TLS_RSA_WITH_AES_256_GCM_SHA384TLS_RSA_WITH_AES_128_GCM_SHA256TLS_RSA_WITH_AES_256_CBC_SHA256TLS_RSA_WITH_AES_128_CBC_SHA256TLS_RSA_WITH_AES_256_CBC_SHATLS_RSA_WITH_AES_256_CBC_SHA
 
 Replaced by another feature?
 Beginning January 2023, customers can only use ourâ¯standard cipher suites. This change impacts your clients and servers that communicate with our servers. For example, it may impact your third party integrations that aren't adhering to ourâ¯standard cipher suites.
@@ -339,7 +339,7 @@ Reason for deprecation/removal
 The support for XSLT scripting in Data management is deprecated to improve security and data protection within finance and operations apps.
 
 Replaced by another feature?
-No. Customers and ISVs should consider reimplementing their solutions based on X++ language, in place of XSLT scripting.
+No, customers and ISVs should consider reimplementing their solutions based on X++ language, in place of XSLT scripting.
 
 Product areas affected
 Finance and operations apps
@@ -384,7 +384,7 @@ Replaced by another feature?
 Yes, there's now an automated system, which renders these capabilities obsolete.
 
 Product areas affected
-SQL actions: Create a plan guide to force Plan ID, Create a plan guide to add table hints, Remove Plan guide, Disable/Enable page locks and lock escalation, Update statistics on a table, Rebuild Index, Create Index
+SQL actions: Create a plan guide to force Plan ID, Create a plan guide to add table hints, Remove Plan guide, Disable/Enable page locks, and lock escalation, Update statistics on a table, Rebuild Index, Create Index
 
 Deployment option
 Cloud deployment: Affects Microsoft-managed production environments and Tier 2 through Tier 5 sandbox environments.
@@ -402,7 +402,7 @@ Reason for deprecation/removal
 The feature was returning unexpected results.
 
 Replaced by another feature?
-No. Any further plans regarding this functionality is communicated through our standard release wave disclosure process.
+No, any further plans regarding this functionality is communicated through our standard release wave disclosure process.
 
 Product areas affected
 Web client - Document attachment experience
