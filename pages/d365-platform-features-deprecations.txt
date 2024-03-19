@@ -68,7 +68,7 @@ Deployment option
 All
 
 Status
-Support for app-only tokens by multitenant apps that don't have a service principal ID will be removed by February 2024 for non-production environments and by May 2024 for production environments.
+Support for app-only tokens by multitenant apps that don't have a service principal ID will be removed by February 2024 for non-production environments and by April 2024 for production environments.
 
 
 
