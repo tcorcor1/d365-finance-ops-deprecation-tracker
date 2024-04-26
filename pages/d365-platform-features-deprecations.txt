@@ -1,6 +1,6 @@
 # Removed or deprecated platform features  
 Article														  04/16/2024  
-																	8 contributors
+																	9 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
