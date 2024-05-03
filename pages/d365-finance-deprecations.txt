@@ -1,6 +1,6 @@
 # Removed or deprecated features in Dynamics 365 Finance  
-Article														  03/07/2024  
-																	19 contributors
+Article														  05/02/2024  
+																	20 contributors
 															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal from Dynamics 365 Finance.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature is not in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
@@ -27,7 +27,7 @@ Deployment option
 All
 
 Status
-Deprecated: By February 1, 2025, we plan to no longer support the Sales tax report for Estonia (Estonian report layout). New VAT declaration XML (EE) and VAT declaration Excel (EE) Electronic reporting (ER) formats are introduced under the Tax declaration model.
+Deprecated: By February 1, 2025, the Sales tax report for Estonia (Estonian report layout) will not be supported. New VAT declaration XML (EE) and VAT declaration Excel (EE) Electronic reporting (ER) formats are introduced under the Tax declaration model.
 
 
 
@@ -55,7 +55,28 @@ Deprecated: By March 1, 2025, we plan to no longer support the Sales tax (Italy)
 
 
 
-## Features removed or deprecated in the Finance 10.0.38 release### Electronic Invoicing integration using Microsoft Dataverse
+## Features removed or deprecated in the Finance 10.0.38 release### Financial Dimension data model changes
+
+
+Reason for deprecation/removal
+Replaced 22 existing fields starting with SystemGenerated* with three new fields in the DimensionAttributeValueCombination table and DimensionAttributeValueSet table.
+
+Replaced by another feature?
+N/A
+
+Product areas affected
+Developer
+
+Deployment option
+All
+
+Status
+Deprecated: By December 22, 2023. These 22 fields and related indexes will be removed by December 27, 2024 to improve performance and reduce storage costs. All access to these fields should be internal only to the core Financial dimension API's and no action is required if using our API's. If any direct access to these fields is enabled by a customization, make the necessary changes to remove these direct references asap. The fields will be removed in Dynamics 365 Finance release 10.0.42 in December of 2024.
+
+
+
+
+### Electronic Invoicing integration using Microsoft Dataverse
 
 
 Reason for deprecation/removal
@@ -92,7 +113,7 @@ Deployment option
 All
 
 Status
-Deprecated: Finance 10.0.38 release no longer supports Dataverse solution for Electronic invoicing. This plugin is no longer required by the new version of the globalization feature for Electronic invoicing in Indonesia.
+Deprecated: Finance 10.0.38 release no longer supports Dataverse solution for Electronic invoicing. This plugin isn't required by the new version of the globalization feature for Electronic invoicing in Indonesia.
 
 
 
