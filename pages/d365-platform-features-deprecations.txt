@@ -52,6 +52,8 @@ To enhance security compliance, support for tokens with an audience claim value 
 
 
 
+To troubleshoot unauthorized 401 errors, see Troubleshoot unauthorized 401 errors (./../dev-itpro/data-entities/troubleshoot-40).
+
 ### Multitenant apps without a service principal in the Microsoft Entra ID tenant
 
 
@@ -72,6 +74,8 @@ Support for app-only tokens by multitenant apps that don't have a service princi
 
 
 
+
+To troubleshoot unauthorized 401 errors, see Troubleshoot unauthorized 401 errors (./../dev-itpro/data-entities/troubleshoot-40).
 
 ## Feature deprecation effective March 2024### Non Microsoft Entra ID external user sign-in
 
