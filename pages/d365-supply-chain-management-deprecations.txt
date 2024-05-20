@@ -1,5 +1,5 @@
 # Removed or deprecated features in Dynamics 365 Supply Chain Management  
-Article														  04/09/2024  
+Article														  05/19/2024  
 																	13 contributors
 															Feedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
 
@@ -26,6 +26,27 @@ Cloud and on-premises
 
 Status
 Supported until version 10.0.40. As of version 10.0.41, inventory transactions will be deprecated for tracking on-hand inventory for internal warehouse operations. Existing customers will be able to continue using this scenario after that version, but new features and bug fixes for this scenario will only be implemented for warehouse-specific inventory transactions.Approximately one year after the release of version 10.0.41, support for this scenario will be removed and all customers will be required to move to warehouse-specific inventory transactions for tracking on-hand inventory for internal warehouse operations.
+
+
+
+
+## Features removed or deprecated in the Supply Chain Management 10.0.40 release### Scale unit capability for Supply Chain Management
+
+
+Reason for deprecation/removal
+The scale unit capability for Microsoft Dynamics 365 Supply Chain Management has been paused for new customers since July 2022 and is now deprecated.
+
+Replaced by another feature?
+Yes. Warehouse management only mode replaces some of the functionality planned for scale units and adds many new architectural and integration possibilities.
+
+Product areas affected
+Supply Chain Management â Warehouse managementSupply Chain Management â Production control
+
+Deployment options
+Cloud and on-premises
+
+Status
+The scale unit capability for Microsoft Dynamics 365 Supply Chain Management has been paused for new customers since July 2022. The capability is formally deprecated as of Supply Chain Management version 10.0.40 and will be completely removed for all customers one year after the release of that version.
 
 
 
