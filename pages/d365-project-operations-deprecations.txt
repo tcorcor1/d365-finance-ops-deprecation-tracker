@@ -1,7 +1,4 @@
-# Removed or deprecated features in Dynamics 365 Project Operations  
-Article														  04/09/2024  
-																	5 contributors
-															Feedback## In this articleApplies To: Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios
+# Removed or deprecated features in Dynamics 365 Project Operations  Article  04/09/2024  5 contributorsFeedback## In this articleApplies To: Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios
 
 This article describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
 
@@ -11,7 +8,7 @@ Note
 
 Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e/global/axtechrefrep_6). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of finance and operations apps.
 
-## Features removed or deprecated in the Project Operations October 2023 release### Project management and accounting adjustment parameter for &quot;Invoiced&quot;
+## Features removed or deprecated in the Project Operations October 2023 release### Project management and accounting adjustment parameter for "Invoiced"
 
 
 Reason for deprecation/removal
@@ -32,7 +29,7 @@ Deprecated: By October 1, 2024, the parameter is hidden and the system behavior 
 
 
 
-### Project management and accounting &quot;Allow for projects with multiple funding sources&quot; parameter
+### Project management and accounting "Allow for projects with multiple funding sources" parameter
 
 
 Reason for deprecation/removal
@@ -53,7 +50,7 @@ Deprecated: By October 1, 2024, the parameter is hidden and the system behavior 
 
 
 
-## Features removed or deprecated in the Project Operations March 2022 release### Project management and accounting &quot;Always create adjustment transaction&quot; parameter
+## Features removed or deprecated in the Project Operations March 2022 release### Project management and accounting "Always create adjustment transaction" parameter
 
 
 Reason for deprecation/removal
@@ -74,7 +71,7 @@ Removed as of 10.0.32.
 
 
 
-### Project management and accounting &quot;Use adjustment date as new project date&quot; parameter
+### Project management and accounting "Use adjustment date as new project date" parameter
 
 
 Reason for deprecation/removal
