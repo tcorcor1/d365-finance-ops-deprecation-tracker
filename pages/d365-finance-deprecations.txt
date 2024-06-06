@@ -1,7 +1,4 @@
-# Removed or deprecated features in Dynamics 365 Finance  
-Article														  05/02/2024  
-																	20 contributors
-															Feedback## In this articleThis article describes features that have been removed, or that are planned for removal from Dynamics 365 Finance.
+# Removed or deprecated features in Dynamics 365 Finance  Article  05/02/2024  20 contributorsFeedback## In this articleThis article describes features that have been removed, or that are planned for removal from Dynamics 365 Finance.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature is not in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -162,7 +159,7 @@ Deprecated: Finance 10.0.38 release no longer supports the TaxYearlyCom_IT and T
 
 
 
-## Features removed or deprecated in the Finance 10.0.36 release### &quot;FTA VAT Audit File (AE)&quot; Electronic reporting (ER) format using the &quot;Standard Audit File model mapping&quot; and &quot;FAF declaration&quot; menu item
+## Features removed or deprecated in the Finance 10.0.36 release### "FTA VAT Audit File (AE)" Electronic reporting (ER) format using the "Standard Audit File model mapping" and "FAF declaration" menu item
 
 
 Reason for deprecation/removal
@@ -340,7 +337,7 @@ Deprecated: By December 1, 2022, we plan to no longer support the VAT declaratio
 
 
 
-### ELSTER declaration for Germany (design based on reporting codes), &quot;Electronic tax declaration log&quot; menu item and page, &quot;Electronic tax declaration setup&quot; menu item and page, German report layout (TaxReport_DE) SSRS formatVAT statement (./localizations/emea-de-vat-declaratio)
+### ELSTER declaration for Germany (design based on reporting codes), "Electronic tax declaration log" menu item and page, "Electronic tax declaration setup" menu item and page, German report layout (TaxReport_DE) SSRS formatVAT statement (./localizations/emea-de-vat-declaratio)
 
 Set up electronic Tax declaration for Germany (./../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-german)
 
@@ -367,7 +364,7 @@ Deprecated: By December 1, 2022, we will no longer support the Elster (DE) Elect
 
 
 
-### OB declaration for Netherlands (design based on reporting codes), &quot;Electronic OB declaration&quot; menu item and page, Dutch report layout (TaxReport_NL) SSRS formatOB declaration (./localizations/emea-nl-vat-declaratio)
+### OB declaration for Netherlands (design based on reporting codes), "Electronic OB declaration" menu item and page, Dutch report layout (TaxReport_NL) SSRS formatOB declaration (./localizations/emea-nl-vat-declaratio)
 
 
 
@@ -390,7 +387,7 @@ Deprecated: By December 1, 2022, we will no longer support the OB declaration (N
 
 
 
-## Features removed or deprecated in the Finance 10.0.20 release### &quot;RTIR Query Invoice Data Request (HU)&quot; Electronic reporting (ER) format configuration
+## Features removed or deprecated in the Finance 10.0.20 release### "RTIR Query Invoice Data Request (HU)" Electronic reporting (ER) format configuration
 
 
 Reason for deprecation/removal
@@ -406,16 +403,16 @@ Deployment option
 All
 
 Status
-Deprecated: By April 15, 2022, we plan to no longer support &quot;RTIR Query Invoice Data Request (HU)&quot; format configuration.
+Deprecated: By April 15, 2022, we plan to no longer support "RTIR Query Invoice Data Request (HU)" format configuration.
 
 
 
 
-### &quot;French FEC audit file&quot; Electronic reporting (ER) format for France under &quot;German audit file output&quot; format
+### "French FEC audit file" Electronic reporting (ER) format for France under "German audit file output" format
 
 
 Reason for deprecation/removal
-Replaced with new &quot;FEC audit file (FR)&quot; format
+Replaced with new "FEC audit file (FR)" format
 
 Replaced by another feature?
 Yes
@@ -427,7 +424,7 @@ Deployment option
 All
 
 Status
-Deprecated: by May 1, 2022, we plan to no longer support &quot;French FEC audit file&quot; Electronic reporting (ER) format for France under &quot;German audit file output&quot; format. New FEC audit file (FR) format is introduced instead under the &quot;Data export model&quot;.
+Deprecated: by May 1, 2022, we plan to no longer support "French FEC audit file" Electronic reporting (ER) format for France under "German audit file output" format. New FEC audit file (FR) format is introduced instead under the "Data export model".
 
 
 
@@ -453,7 +450,7 @@ Deprecated: By April 01, 2022, we plan to no longer support the Microsoft Dynami
 
 
 
-## Features removed or deprecated in the Finance 10.0.16 release### &quot;VAT declaration (CZ)&quot; and &quot;Control statement export (CZ)&quot; Electronic reporting formats for Czech Republic
+## Features removed or deprecated in the Finance 10.0.16 release### "VAT declaration (CZ)" and "Control statement export (CZ)" Electronic reporting formats for Czech Republic
 
 
 Reason for deprecation/removal
@@ -469,16 +466,16 @@ Deployment option
 All
 
 Status
-Deprecated: By January 22, 2022, we plan to no longer support &quot;VAT declaration (CZ)&quot;, &quot;Control statement export (CZ)&quot; Electronic reporting (ER) formats. New VAT declaration XML (CZ), VAT declaration Excel (CZ), VAT control statement XML (CZ) formats are introduced instead under the &quot;Tax declaration&quot; model.
+Deprecated: By January 22, 2022, we plan to no longer support "VAT declaration (CZ)", "Control statement export (CZ)" Electronic reporting (ER) formats. New VAT declaration XML (CZ), VAT declaration Excel (CZ), VAT control statement XML (CZ) formats are introduced instead under the "Tax declaration" model.
 
 
 
 
-### &quot;Ledger transaction export format (BE)&quot; Electronic reporting format and respective &quot;Ledger transaction export (BE)&quot; model for Belgium
+### "Ledger transaction export format (BE)" Electronic reporting format and respective "Ledger transaction export (BE)" model for Belgium
 
 
 Reason for deprecation/removal
-Replaced with new ER format under &quot;Standard Audit File (SAF-T)&quot; model.
+Replaced with new ER format under "Standard Audit File (SAF-T)" model.
 
 Replaced by another feature?
 Yes
@@ -490,16 +487,16 @@ Deployment option
 All
 
 Status
-Deprecated: By December 1, 2021, we plan to no longer support the &quot;Ledger transaction export format (BE)&quot; Electronic reporting (ER) format and respective &quot;Ledger transaction export (BE)&quot; model. A new &quot;General ledger data export (BE)&quot; format together with &quot;General ledger data model mapping&quot; are introduced instead under the &quot;Standard Audit File (SAF-T)&quot; model.
+Deprecated: By December 1, 2021, we plan to no longer support the "Ledger transaction export format (BE)" Electronic reporting (ER) format and respective "Ledger transaction export (BE)" model. A new "General ledger data export (BE)" format together with "General ledger data model mapping" are introduced instead under the "Standard Audit File (SAF-T)" model.
 
 
 
 
-### &quot;VAT 100&quot; report for the United Kingdom in SSRS format
+### "VAT 100" report for the United Kingdom in SSRS format
 
 
 Reason for deprecation/removal
-Replaced with new ER format - &quot;VAT Declaration Excel (UK)&quot; format under &quot;Tax declaration model&quot;.
+Replaced with new ER format - "VAT Declaration Excel (UK)" format under "Tax declaration model".
 
 Replaced by another feature?
 Yes
@@ -511,7 +508,7 @@ Deployment option
 All
 
 Status
-Deprecated: By December 1, 2021, we plan to no longer support the &quot;VAT 100 report&quot; in SSRS format. A new &quot;VAT Declaration Excel (UK)&quot; format under &quot;Tax declaration model&quot; was introduced in the MTD VAT feature.
+Deprecated: By December 1, 2021, we plan to no longer support the "VAT 100 report" in SSRS format. A new "VAT Declaration Excel (UK)" format under "Tax declaration model" was introduced in the MTD VAT feature.
 
 
 
