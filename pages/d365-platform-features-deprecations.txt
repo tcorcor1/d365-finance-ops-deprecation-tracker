@@ -28,7 +28,7 @@ End of support date is targeted for May 2024.
 
 
 
-## Feature deprecation effective April 2024### Tokens without an environment URL in finance and operations apps
+## Feature deprecation effective April 2024### Token resource or audience without an environment URL in finance and operations apps
 
 
 Reason for deprecation/removal
