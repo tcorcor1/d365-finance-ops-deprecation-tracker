@@ -1,4 +1,4 @@
-# Removed or deprecated features in Dynamics 365 Supply Chain Management  Article  05/19/2024  14 contributorsFeedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
+# Removed or deprecated features in Dynamics 365 Supply Chain Management  Article  06/14/2024  14 contributorsFeedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and might be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -6,7 +6,28 @@ Note
 
 Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of finance and operations apps.
 
-## Features removed or deprecated in the Supply Chain Management 10.0.41 release### Inventory transactions support for internal warehouse operations
+## Features removed or deprecated in the Supply Chain Management 10.0.41 release### Job card terminal
+
+
+Reason for deprecation/removal
+The job card terminal is being replaced by the new production floor execution interface.
+
+Replaced by another feature?
+Yes, the job card terminal is to be replaced by the new production floor execution interface.
+
+Product areas affected
+Supply Chain Management â production control
+
+Deployment option
+Cloud and on-premises
+
+Status
+Deprecated. Approximately one year after the release of version 10.0.41, the job card terminal will no longer be supported and may eventually be removed from the product.
+
+
+
+
+### Inventory transactions support for internal warehouse operations
 
 
 Reason for deprecation/removal
@@ -136,10 +157,10 @@ Removed. The Stock transfer orders that have tax on the transfer price functiona
 
 
 Reason for deprecation/removal
-The job card device is being replaced by the new production floor execution interface.
+The job card device is replaced by the production floor execution interface.
 
 Replaced by another feature?
-Yes, the job card device is to be replaced by the new production floor execution interface.
+Yes, the job card device is replaced by the production floor execution interface.
 
 Product areas affected
 Supply Chain Management â production control
@@ -148,7 +169,7 @@ Deployment option
 Cloud and on-premises
 
 Status
-Removed. As of April 2022, the job card device is no longer supported and customers must use the new production floor execution interface.
+Unsupported. As of April 2022, the job card device is no longer supported and customers must use the new production floor execution interface.
 
 
 
