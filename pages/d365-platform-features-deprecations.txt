@@ -1,8 +1,8 @@
-# Removed or deprecated platform features  Article  07/18/2024  10 contributorsFeedback## In this articleThis article describes features that are removed, or that are planned for removal in platform updates of finance and operations apps.
+# Removed or deprecated platform features  Article  07/25/2024  10 contributorsFeedback## In this articleThis article describes features that are removed, or that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
-Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e/global/axtechrefrep_6). You can compare the different versions of these reports to learn about objects that are changed or been removed in each version of finance and operations apps.
+Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e/global/axtechrefrep_6). You can compare the different versions of these reports to learn about objects that are changed or removed in each version of finance and operations apps.
 
 ## Feature deprecation effective July 2024### Azure Active Directory Graph to Microsoft Graph Migration
 
@@ -23,7 +23,7 @@ Deployment option
 All
 
 Status
-End of support date is targeted for Oct 2024.
+The Support for Azure Active Directory Graph will end in PU66.
 
 
 
@@ -56,7 +56,7 @@ Reason for deprecation/removal
 To enhance the security and performance of finance and operations apps, we're announcing the deprecation of support for unregistered Microsoft account users and external Microsoft Entra users in finance and operations apps.
 
 What is changing?
-If a Microsoft account or Microsoft Entra ID account isn't registered in your Microsoft Entra ID tenant, you won't be able to access finance and operations apps. You'll receive the following error message: "AADSTS50020: user account 'contoso@contoso.com;' from identity provider 'https://sts.windows.net/{tenant Id}/' doesn't exist in tenant '{tenant name}' and can't access the application '{application Id}'(Finance and operations environment name) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with different Microsoft Entra ID user account". The user is blocked at the Microsoft Entra ID tenant level. This change doesn't affect granular delegated admin permissions (GDAP) or CSP users.
+If a Microsoft account or Microsoft Entra ID account isn't registered in your Microsoft Entra ID tenant, you won't be able to access finance and operations apps. You receive the following error message: "AADSTS50020: user account 'contoso@contoso.com;' from identity provider 'https://sts.windows.net/{tenant ID}/' doesn't exist in tenant '{tenant name}' and can't access the application '{application ID}'(Finance and operations environment name) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with different Microsoft Entra ID user account." The user is blocked at the Microsoft Entra ID tenant level. This change doesn't affect granular delegated admin permissions (GDAP) or CSP users.
 
 What do you need to do?
 If a user who isn't part of your Microsoft Entra requires access to finance and operations apps, that user must be added to the Microsoft Entra ID tenant as an external user or guest user. For more information, see B2B collaboration overview.
@@ -89,7 +89,7 @@ Deployment option
 All
 
 Status
-To enhance security compliance, support for tokens with an audience claim value other than the environment URL is removed by April 2024 for non-production environments and by May 2024 for production environments. Platform update 63 and Dynamics 365 finance version 10.0.39 and later.
+To enhance security compliance, support for tokens with an audience claim value other than the environment URL is removed by April 2024 for nonproduction environments and by May 2024 for production environments. Platform update 63 and Dynamics 365 finance version 10.0.39 and later.
 
 
 
@@ -112,7 +112,7 @@ Deployment option
 All
 
 Status
-Support for app-only tokens by multitenant apps that don't have a service principal ID will be removed by February 2024 for non-production environments and by April 2024 for production environments. Platform update 63 and Dynamics 365 finance version 10.0.39 and later
+Support for app-only tokens by multitenant apps that don't have a service principal ID will be removed by February 2024 for nonproduction environments and by April 2024 for production environments. Platform update 63 and Dynamics 365 finance version 10.0.39 and later
 
 
 
@@ -144,7 +144,7 @@ The rollout for sandbox environments begins from Feb 2024 and for prod environme
 
 
 Reason for deprecation/removal
-The SHA1 algorithm has been widely recognized as vulnerable to security breaches due to its susceptibility to collision attacks. To address this security requirement, imports for ISV licenses that are generated using the SHA1 cryptographic algorithm are longer supported.
+The SHA1 algorithm was widely recognized as vulnerable to security breaches due to its susceptibility to collision attacks. To address this security requirement, imports for ISV licenses that are generated using the SHA1 cryptographic algorithm are longer supported.
 
 Replaced by another feature?
 SHA256 - To ensure the security and integrity of your system and data, we strongly encourage all our customers to migrate to the more secure SHA256 algorithm for generating ISV licenses.
@@ -406,7 +406,7 @@ Deprecated. End of support date is targeted for October 2024.
 
 
 Reason for deprecation/removal
-Horizontally scrolling pages align to out-dated layout patterns that have known usability and accessibility issues.
+Horizontally scrolling pages align to outdated layout patterns that have known usability and accessibility issues.
 
 Replaced by another feature?
 No, but other tab styles are still available.
@@ -427,7 +427,7 @@ Deprecated.
 
 
 Reason for deprecation/removal
-We're removing support for XML URL resolution since it has been identified as a potential security vulnerability. This means that external resources associated with XML files are no longer resolved.
+We're removing support for XML URL resolution since it was identified as a potential security vulnerability. This change means that external resources associated with XML files are no longer resolved.
 
 Replaced by another feature?
 No
@@ -469,7 +469,7 @@ Deprecated Exception: Customers who are currently using XLST scripting can conti
 
 
 Reason for deprecation/removal
-All activities and monitoring are performed internally, by the platform, through automation. This won't require any manual intervention.
+All activities and monitoring are performed internally, by the platform, through automation. This change won't require any manual intervention.
 
 Replaced by another feature?
 Yes, there's now an automated system, which renders these capabilities obsolete.
@@ -490,7 +490,7 @@ Removed
 
 
 Reason for deprecation/removal
-We're deprecating some SQL actions in Lifecycle Services. All activities and monitoring are performed internally, by the platform, through automation. This won't require any manual intervention.
+We're deprecating some SQL actions in Lifecycle Services. All activities and monitoring are performed internally, by the platform, through automation. This change won't require any manual intervention.
 
 Replaced by another feature?
 Yes, there's now an automated system, which renders these capabilities obsolete.
@@ -574,7 +574,7 @@ Deprecated. Planned removal date is April 2023.
 
 
 Reason for deprecation/removal
-Skype for Business Online has been retired. For more information, see The Skype for Business Online service has retired.
+Skype for Business Online was retired. For more information, see The Skype for Business Online service has retired.
 
 Replaced by another feature?
 Not currently, although we may consider adding presence from Teams in the future.
@@ -586,7 +586,7 @@ Deployment option
 All
 
 Status
-Deprecated. The Skype enabled setting has been turned off starting in release 10.0.21. The removal of this setting is targeted for April 2022; however, the feature will stop functioning after the Skype team shuts down the service.
+Deprecated. The Skype enabled setting was turned off starting in release 10.0.21. The removal of this setting is targeted for April 2022; however, the feature will stop functioning after the Skype team shuts down the service.
 
 
 
@@ -595,7 +595,7 @@ Deprecated. The Skype enabled setting has been turned off starting in release 10
 
 
 Reason for deprecation/removal
-All activities and monitoring are performed internally, by the platform, through automation. This doesn't require any manual intervention.
+All activities and monitoring are performed internally, by the platform, through automation. This change won't require any manual intervention.
 
 Replaced by another feature?
 Yes, there's now an automated system, which renders these capabilities obsolete.
@@ -616,7 +616,7 @@ Deprecated: Planned removal date is October 2021.
 
 
 Reason for deprecation/removal
-We're deprecating some SQL actions in Lifecycle Services. All activities and monitoring are performed internally, by the platform, through automation. This won't require any manual intervention.
+We're deprecating some SQL actions in Lifecycle Services. All activities and monitoring are performed internally, by the platform, through automation. This change won't require any manual intervention.
 
 Replaced by another feature?
 Yes, there's now an automated system, which renders these capabilities obsolete.
@@ -637,7 +637,7 @@ Deprecated: Planned removal date is October 2021.
 
 
 Reason for deprecation/removal
-We're deprecating the Globalization portal in Lifecycle Services as this feature has been superseded by other Lifecycle Services-based services.
+We're deprecating the Globalization portal in Lifecycle Services as this feature was superseded by other Lifecycle Services-based services.
 
 Replaced by another feature?
 Yes, this feature is replaced by Lifecycle Services Issue search and Dynamics regulatory alert submission service.
@@ -658,7 +658,7 @@ Deprecated: Planned removal date is May 2022.
 
 
 Reason for deprecation/removal
-In order to reduce the overhead of operating, monitoring, and maintaining the index management by customers, this feature has been removed.
+In order to reduce the overhead of operating, monitoring, and maintaining the index management by customers, this feature was removed.
 
 Replaced by another feature?
 After this update, the index maintenance is performed by Microsoft services. This maintenance happens continuously without affecting the user workloads.
@@ -700,10 +700,10 @@ Deprecated: After you update to version 10.0.17, the previous X++ tools are remo
 
 
 Reason for deprecation/removal
-The user avatar that displays on the right side of the navigation bar was retrieved using an API from the Dynamics 365 header control, which has been deprecated.
+The user avatar that displays on the right side of the navigation bar was retrieved using an API from the Dynamics 365 header control, which was deprecated.
 
 Replaced by another feature?
-Users see their initials in a circle in the navigation bar instead. This is the same visual currently used on development machines.
+Users see their initials in a circle in the navigation bar instead. This same visual is currently used on development machines.
 
 Product areas affected
 Web client
@@ -784,7 +784,7 @@ With version 10.0.15, the add-in is no longer included in the Visual Studio tool
 
 
 Reason for deprecation/removal
-This is a legacy page that was built for previous client/server architecture. The information on this page isn't always accurate, which can be confusing and misleading.
+The Online users page is a legacy page that was built for previous client/server architecture. The information on this page isn't always accurate, which can be confusing and misleading.
 
 Replaced by another feature?
 We'll provide a new page in a future update. As a workaround, use the table browser for the SysClientSessions table to view client sessions.
@@ -829,7 +829,7 @@ Reason for deprecation/removal
 Three jQuery component libraries are being updated for security fixes and to maintain currency.
 
 Replaced by another feature?
-The following libraries are being affected: jQuery (to version 3.5.0 from version 2.1.4), jQuery UI (to version 1.12.1 from version 1.11.4), jQuery qTip (to version 3.0.3 from 2.2.1). Migration guidance has been provided online by jQuery.
+The following libraries are being affected: jQuery (to version 3.5.0 from version 2.1.4), jQuery UI (to version 1.12.1 from version 1.11.4), jQuery qTip (to version 3.0.3 from 2.2.1). Migration guidance was provided online by jQuery.
 
 Product areas affected
 Extensible controls, custom JavaScript code utilizing deprecated or removed APIs.
@@ -868,7 +868,7 @@ The new grid control is mandatory with the October 2022 release (version 10.0.29
 
 
 Reason for deprecation/removal
-The personalization subsystem has been overhauled with the saved views feature, so that it has better performance and offers more capabilities.
+The personalization subsystem was overhauled with the saved views feature, so that it has better performance and offers more capabilities.
 
 Replaced by another feature?
 Saved views
@@ -985,7 +985,7 @@ Deployment option
 All
 
 Status
-Deprecated: ISV licenses that were created by using the SHA1 hashing algorithm. This algorithm depended on certificates that were created by using the MakeCert utility, and this utility has been deprecated.Deprecated: The use of SHA1 for security or hashing purposes. SHA1 ceases to function in early 2021. Therefore, it should no longer be used.Removed: Support for Transport Layer Security (TLS) 1.0 and TLS 1.1 incoming or outgoing requests.
+Deprecated: ISV licenses that were created by using the SHA1 hashing algorithm. This algorithm depended on certificates that were created by using the MakeCert utility, and this utility was deprecated.Deprecated: The use of SHA1 for security or hashing purposes. SHA1 ceases to function in early 2021. Therefore, it should no longer be used.Removed: Support for Transport Layer Security (TLS) 1.0 and TLS 1.1 incoming or outgoing requests.
 
 
 
