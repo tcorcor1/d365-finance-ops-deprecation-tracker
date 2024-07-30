@@ -1,4 +1,4 @@
-# Removed or deprecated features in Dynamics 365 Supply Chain Management  Article  06/14/2024  14 contributorsFeedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
+# Removed or deprecated features in Dynamics 365 Supply Chain Management  Article  07/29/2024  15 contributorsFeedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and might be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -44,6 +44,27 @@ Cloud and on-premises
 
 Status
 Supported until version 10.0.40. As of version 10.0.41, inventory transactions will be deprecated for tracking on-hand inventory for internal warehouse operations. Existing customers will be able to continue using this scenario after that version, but new features and bug fixes for this scenario will only be implemented for warehouse-specific inventory transactions.Approximately one year after the release of version 10.0.41, support for this scenario will be removed and all customers will be required to move to warehouse-specific inventory transactions for tracking on-hand inventory for internal warehouse operations.
+
+
+
+
+### Release to warehouse page
+
+
+Reason for deprecation/removal
+The Release to warehouse page has performance issues.
+
+Replaced by another feature?
+Yes. The  Release to warehouse page has been split into two new release to warehouse pages, which together provide equivalent functionality with significantly improved performance. The new pages are Release sales orders to warehouse and Release transfer orders to warehouse.
+
+Product areas affected
+Supply Chain Management â Release to warehouse
+
+Deployment option
+Cloud and on-premises
+
+Status
+Deprecated. The Release to warehouse page is now hidden in the app, but you can enable it if necessary by contacting Microsoft Support. We strongly recommend that you instead use the new pages (Release sales orders to warehouse and Release transfer orders to warehouse) because they provide equivalent functionality with significantly improved performance. The Release to warehouse page will be completely removed from the product one year after the release of Supply Chain Management version 10.0.41.
 
 
 
