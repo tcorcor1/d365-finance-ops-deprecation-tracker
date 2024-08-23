@@ -1,4 +1,4 @@
-# Removed or deprecated platform features  Article  08/05/2024  10 contributorsFeedback## In this articleThis article describes features that are removed, or that are planned for removal in platform updates of finance and operations apps.
+# Removed or deprecated platform features  Article  08/22/2024  10 contributorsFeedback## In this articleThis article describes features that are removed, or that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -73,7 +73,9 @@ The SharePoint user authentication feature is available in Dynamics 365 Finance 
 
 
 
-## Feature deprecation effective May 2024### Support for unregistered Microsoft account and external Microsoft Entra ID users
+## Feature deprecation effective August 2024### Support for unregistered Microsoft account and external Microsoft Entra ID usersLogin will be blocked for unregistered Microsoft Account (MSA) (en-us/entra/external-id/microsoft-accoun) and External Microsoft Entra ID users (en-us/entra/external-id/default-accoun) in Finance and Operation Apps
+
+
 
 
 Reason for deprecation/removal
@@ -92,7 +94,7 @@ Deployment option
 All
 
 Status
-End of support date is targeted for May 2024.
+This change will reach your environment any time starting August 2024.
 
 
 
