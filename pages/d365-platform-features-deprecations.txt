@@ -1,4 +1,4 @@
-# Removed or deprecated platform features  Article  08/22/2024  10 contributorsFeedback## In this articleThis article describes features that are removed, or that are planned for removal in platform updates of finance and operations apps.
+# Removed or deprecated platform features  Article  08/31/2024  10 contributorsFeedback## In this articleThis article describes removed features, or features that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -14,7 +14,7 @@ Replaced by another feature?
 Microsoft Entra ID based authentication.
 
 What do you need to do?
-This can impact the following set of functionalities.  1. The SQL Connection string acquired by third-party code that isn't using any platforms public API present in platform.  Recommendation: Switch to public API rather than reading it directly from config.  2. Long-running transactions that run for several hours. Recommendation: Reduce the time the connection is opened and keep the transactions as short-lived as possible.   NOTE: LBD and CHE environments still use password-based authentication.
+This change impacts the following set of functionalities.  1. The SQL Connection string acquired by third-party code that isn't using any platforms public API present in platform.  Recommendation: Switch to public API rather than reading it directly from config.  2. Long-running transactions that run for several hours. Recommendation: Reduce the time the connection is opened and keep the transactions as short-lived as possible.   NOTE: LBD and CHE environments still use password-based authentication.
 
 Product areas affected
 Finance and operations apps
@@ -24,6 +24,30 @@ All
 
 Status
 End of support date is Oct 2024 starting with 10.0.39 (PU63) and greater releases.
+
+
+
+
+## Feature deprecation effective September 2024### Microsoft will no longer ship or support the Visual Studio extensions for finance and operations apps, Power Platform tools, and Visual Studio versions prior to 2022.
+
+
+Reason for deprecation/removal
+We want to focus our attention on one platform, harvesting the benefits provided from the 64 bit platform.
+
+Replaced by another feature?
+Visual Studio 2022.
+
+What do you need to do?
+Install Visual Studio version 2022.
+
+Product areas affected
+Development for finance and operations apps, including the Unified Development experience, and development of plugins with the Power Platform Tools.
+
+Deployment option
+All
+
+Status
+This change is effective as of Platform update 65 and Dynamics 365 Finance version 10.0.41 and later.
 
 
 
@@ -94,7 +118,7 @@ Deployment option
 All
 
 Status
-This change will reach your environment any time starting August 2024.
+This change reaches your environment anytime starting August 2024.
 
 
 
@@ -666,7 +690,7 @@ Reason for deprecation/removal
 We're deprecating the Globalization portal in Lifecycle Services as this feature was superseded by other Lifecycle Services-based services.
 
 Replaced by another feature?
-Yes, this feature is replaced by Lifecycle Services Issue search and Dynamics regulatory alert submission service.
+Yes, Lifecycle Services Issue search and Dynamics regulatory alert submission service replace this feature.
 
 Product areas affected
 Globalization portal in Lifecycle Services
@@ -687,7 +711,7 @@ Reason for deprecation/removal
 In order to reduce the overhead of operating, monitoring, and maintaining the index management by customers, this feature was removed.
 
 Replaced by another feature?
-After this update, the index maintenance is performed by Microsoft services. This maintenance happens continuously without affecting the user workloads.
+After this update, Microsoft services performs the index maintenance. This maintenance happens continuously without affecting the user workloads.
 
 Product areas affected
 Finance and operations apps
@@ -827,7 +851,7 @@ This page will be removed in a future release.
 
 
 
-## Platform updates for version 10.0.13 of finance and operations apps### Custom code defined in SSRS report properties
+## Platform updates for version 10.0.13 of finance and operations apps### Custom code that's defined in SSRS report properties
 
 
 Reason for deprecation/removal
@@ -873,7 +897,7 @@ With version 10.0.13/Platform update 37, customers can optionally move to the la
 
 
 Reason for deprecation/removal
-The existing grid control is being replaced by the new grid control.
+The new grid control replaces existing grid control.
 
 Replaced by another feature?
 The new grid control
@@ -885,7 +909,7 @@ Deployment option
 All
 
 Status
-The new grid control is mandatory with the October 2022 release (version 10.0.29). The forceLegacyGrid() API is currently still being honored if the old grid is still needed; however, this API is targeted to be deprecated by the October 2023 release. When the deprecation of this API is announced, it's available for at least 12 months before no longer being available.
+The new grid control is mandatory with the October 2022 release (version 10.0.29). The forceLegacyGrid() API is currently still being honored if the old grid is still needed; however, this API is deprecated in the October 2023 release. When the deprecation of this API is announced, it's available for at least 12 months before no longer being available.
 
 
 
@@ -936,7 +960,7 @@ A compiler warning is introduced in platform updates for version 10.0.12 of fina
 
 
 Reason for deprecation/removal
-The process for moving IP to safe lists has changed. Self-service no longer supports IP safe lists.
+The process for moving IP to safe lists changed. Self-service no longer supports IP safe lists.
 
 Replaced by another feature?
 For more information, see Configuring Conditional Access.
@@ -1058,5 +1082,5 @@ This feature is actively being removed from the service.The modern client offers
 
 
 
-## Previous announcements about removed or deprecated featuresTo learn more about features that have been removed or deprecated in previous releases, see Removed or deprecated features in previous releases (./../dev-itpro/migration-upgrade/deprecated-feature).
+## Previous announcements about removed or deprecated featuresTo learn more about removed or deprecated features in previous releases, see Removed or deprecated features in previous releases (./../dev-itpro/migration-upgrade/deprecated-feature).
 
