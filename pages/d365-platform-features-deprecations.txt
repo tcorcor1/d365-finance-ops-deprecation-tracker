@@ -1,4 +1,4 @@
-# Removed or deprecated platform features  Article  09/13/2024  11 contributorsFeedback## In this articleThis article describes removed features, or features that are planned for removal in platform updates of finance and operations apps.
+# Removed or deprecated platform features  Article  09/18/2024  11 contributorsFeedback## In this articleThis article describes removed features, or features that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -145,7 +145,7 @@ Deployment option
 All
 
 Status
-The Support for Azure Active Directory Graph will end in PU66.
+The Support for Azure Active Directory Graph will end in 10.0.41/PU65.
 
 
 
