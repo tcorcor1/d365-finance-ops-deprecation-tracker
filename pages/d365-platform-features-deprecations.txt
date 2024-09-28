@@ -1,4 +1,4 @@
-# Removed or deprecated platform features  Article  09/18/2024  11 contributorsFeedback## In this articleThis article describes removed features, or features that are planned for removal in platform updates of finance and operations apps.
+# Removed or deprecated platform features  Article  09/27/2024  12 contributorsFeedback## In this articleThis article describes removed features, or features that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -47,7 +47,7 @@ Deployment option
 All
 
 Status
-Phase 1: Release and feedback (October 2024âNovember 2024)The new code will be released to a selected group of users for beta testing. Feedback will be collected, and any necessary adjustments will be made. The code will be fully rolled out after all fixes are made. During this period, we will continue to support the old package.Phase 2: Deprecation timeline for customers â release 10.0.43 â PU67 (March 2025)This phase is the timeline when customers must move to new libraries before release 10.0.43 (PU67) service updates (general availability approximately March 2025).Phase 3: Stop shipping old libraries in version 10.0.44 â PU68 (June 2025)In version 10.0.44 (PU68) service updates (June 2025), support for the old package will end. Therefore, we will stop shipping the old libraries, and the old code will be removed after telemetry data is validated to ensure that customer scenarios aren't affected. For more information, see the service updates schedule.For updates, see Finance and operations storage account security updates.
+Phase 1: Release and feedback (October 2024âNovember 2024)The new code will be released to a selected group of users for beta testing. Feedback will be collected, and any necessary adjustments will be made. The code will be fully rolled out after all fixes are made. During this period, we'll continue to support the old package.Phase 2: Deprecation timeline for customers â release 10.0.43 â PU67 (March 2025)This phase is the timeline when customers must move to new libraries before release 10.0.43 (PU67) service updates (general availability approximately March 2025).Phase 3: Stop shipping old libraries in version 10.0.44 â PU68 (June 2025)In version 10.0.44 (PU68) service updates (June 2025), support for the old package will end. Therefore, we'll stop shipping the old libraries, and the old code will be removed after telemetry data is validated to ensure that customer scenarios aren't affected. For more information, see the service updates schedule.For updates, see Finance and operations storage account security updates.
 
 
 
@@ -88,7 +88,7 @@ Replaced by another feature?
 Microsoft Entra IDâbased interaction with the storage account
 
 What do you need to do?
-For new tenants that are created after August 19, 2024, the connection string won't be available to you. You will use public APIs from the platform SharedServiceUnitStorage class to interact with the storage account.For existing tenants that were created before August 19, 2024, your current code will continue to function. However, because GetCsuStorageConnectionString will be deprecated in version 10.0.43 (PU67) service updates (March 2025), we recommend that you remove direct dependency on the storage connection string. Instead, use public methods from SharedServiceUnitStorage to interact with the storage account.For ISVs, if you have direct use of the connection string in your solutions, it must be removed. Public APIs from SharedServiceUnitStorage will be used to get relevant storage objects for interaction with the storage account.
+For new tenants that are created after August 19, 2024, the connection string won't be available to you. You'll use public APIs from the platform SharedServiceUnitStorage class to interact with the storage account.For existing tenants that were created before August 19, 2024, your current code will continue to function. However, because GetCsuStorageConnectionString will be deprecated in version 10.0.43 (PU67) service updates (March 2025), we recommend that you remove direct dependency on the storage connection string. Instead, use public methods from SharedServiceUnitStorage to interact with the storage account.For ISVs, if you have direct use of the connection string in your solutions, it must be removed. Public APIs from SharedServiceUnitStorage will be used to get relevant storage objects for interaction with the storage account.
 
 Product areas affected
 Finance and operations apps
@@ -122,6 +122,32 @@ All
 
 Status
 This change is effective as of Platform update 65 and Dynamics 365 Finance version 10.0.41 and later.
+
+
+
+
+## Feature deprecation effective August 2024### Support for unregistered Microsoft account and external Microsoft Entra ID usersLogin will be blocked for unregistered Microsoft Account (MSA) (en-us/entra/external-id/microsoft-accoun) and External Microsoft Entra ID users (en-us/entra/external-id/default-accoun) in Finance and Operation Apps
+
+
+
+
+Reason for deprecation/removal
+To enhance the security and performance of finance and operations apps, we're announcing the deprecation of support for unregistered Microsoft account users and external Microsoft Entra users in finance and operations apps.
+
+What is changing?
+Users not registered as a member or guest in the Microsoft Entra ID tenant can't access the finance and operations applications. If you aren't registered you receive the following error message:"AADSTS50020: user account 'contoso@contoso.com;' from identity provider 'https://sts.windows.net/{tenant ID}/' doesn't exist in tenant '{tenant name}' and can't access the application '{application ID}'(Finance and operations environment name) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with different Microsoft Entra ID user account."During the initial rollout phase, access to user will be failing with the following error message:âYou are not authorized to log in with your current credentials. You'll be redirected to the login page in a few seconds. To troubleshoot login issues, please visit Invalid Users GuideâLater these users will be blocked at the Microsoft Entra ID Tenant level. This change doesn't affect Granular Delegated Admin Permissions (GDAP) or CSP users. The user is blocked at the Microsoft Entra ID tenant level. This change doesn't affect granular delegated admin permissions (GDAP) or CSP users.
+
+What do you need to do?
+If a user who isn't part of your Microsoft Entra requires access to finance and operations apps, that user must be added to the Microsoft Entra ID tenant as an external user or guest user. For more information, see B2B collaboration overview.
+
+Product areas affected
+Finance and operations apps
+
+Deployment option
+All
+
+Status
+This change reaches your environment beginning last week of September 2024.
 
 
 
@@ -167,32 +193,6 @@ Microsoft-managed cloud environments
 
 Status
 The SharePoint user authentication feature is available in Dynamics 365 Finance version 10.0.40, and is mandatory in version 10.0.42. Migration to the new SharePoint authentication must occur by February 28, 2025, at which time the current SharePoint connection stops working.
-
-
-
-
-## Feature deprecation effective August 2024### Support for unregistered Microsoft account and external Microsoft Entra ID usersLogin will be blocked for unregistered Microsoft Account (MSA) (en-us/entra/external-id/microsoft-accoun) and External Microsoft Entra ID users (en-us/entra/external-id/default-accoun) in Finance and Operation Apps
-
-
-
-
-Reason for deprecation/removal
-To enhance the security and performance of finance and operations apps, we're announcing the deprecation of support for unregistered Microsoft account users and external Microsoft Entra users in finance and operations apps.
-
-What is changing?
-If a Microsoft account or Microsoft Entra ID account isn't registered in your Microsoft Entra ID tenant, you aren't able to access finance and operations apps. You receive the following error message: "AADSTS50020: user account 'contoso@contoso.com;' from identity provider 'https://sts.windows.net/{tenant ID}/' doesn't exist in tenant '{tenant name}' and can't access the application '{application ID}'(Finance and operations environment name) in that tenant. The account needs to be added as an external user in the tenant first. Sign out and sign in again with different Microsoft Entra ID user account." The user is blocked at the Microsoft Entra ID tenant level. This change doesn't affect granular delegated admin permissions (GDAP) or CSP users.
-
-What do you need to do?
-If a user who isn't part of your Microsoft Entra requires access to finance and operations apps, that user must be added to the Microsoft Entra ID tenant as an external user or guest user. For more information, see B2B collaboration overview.
-
-Product areas affected
-Finance and operations apps
-
-Deployment option
-All
-
-Status
-This change reaches your environment anytime starting August 2024.
 
 
 
@@ -785,7 +785,7 @@ Reason for deprecation/removal
 In order to reduce the overhead of operating, monitoring, and maintaining the index management by customers, this feature was removed.
 
 Replaced by another feature?
-After this update, Microsoft services performs the index maintenance. This maintenance happens continuously without affecting the user workloads.
+After this update, Microsoft Services performs the index maintenance. This maintenance happens continuously without affecting the user workloads.
 
 Product areas affected
 Finance and operations apps
