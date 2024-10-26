@@ -1,4 +1,4 @@
-# Removed or deprecated platform features  Article  10/22/2024  12 contributorsFeedback## In this articleThis article describes removed features, or features that are planned for removal in platform updates of finance and operations apps.
+# Removed or deprecated platform features  Article  10/25/2024  12 contributorsFeedback## In this articleThis article describes removed features, or features that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -248,10 +248,13 @@ To troubleshoot unauthorized 401 errors, see Check token compliance (./../dev-it
 
 
 Reason for deprecation/removal
-Multitenant apps that don't have a client service principal have been recognized as vulnerable, because they pose a significant risk of acquiring cross-tenant Open Authorization (OAuth) app-only tokens for multitenant services across arbitrary tenants. To address this security vulnerability, apps without a service principal in the tenant is no longer authenticated. Finance and operations APIs will start to fail from these apps in deprecated environments. To review your onboarded applications, in finance and operations apps, go to System administration &gt; Setup &gt; Microsoft Entra applications. For information about how to review your onboarded applications, see Register your external application.
+Multitenant apps that don't have a client service principal have been recognized as vulnerable, because they pose a significant risk of acquiring cross-tenant Open Authorization (OAuth) app-only tokens for multitenant services across arbitrary tenants. To address this security vulnerability, apps without a service principal in the tenant is no longer authenticated. Finance and operations APIs will start to fail from these apps in deprecated environments.
 
 Replaced by another feature?
-To ensure the security and integrity of your system and data, we strongly encourage all our customers to provision the multitenant apps in their Microsoft Entra ID tenant. For more information, see Create an enterprise application from a multitenant application. Note â If application onboarding isn't expected, remove that app or replace with a compliant app that has a client service principal in tenant.
+No. To ensure the security and integrity of your system and data, we strongly encourage all our customers to provision the multitenant apps in their Microsoft Entra ID tenant. For more information, see Create an enterprise application from a multitenant application. If application onboarding isn't expected, remove that app or replace with a compliant app that has a client service principal in tenant.
+
+What do you need to do?
+Step 1. Review your onboarded applications:  Go to System administration &gt; Setup &gt; Microsoft Entra ID application, or Azure Active Directory applications to review onboarded applications For information about how to review your onboarded applications, see Register your external application.Step 2. Provision Application Service Principal:   Create a Service Principal in your Microsoft Entra ID tenant for above listed applications. Follow these steps. Skip provisioning for Microsoft applications and those already provisioned with a service principal ID. Remove or replace any unexpected application onboarding with a compliant app.Step 3. Review the configured Endpoint:   Make sure the access token being acquired should be from your Tenanted endpoint not organization endpoint https://login.microsoftonline.com/{yourtenant} and not your organization endpont https://login.microsoftonline.com/organizations.
 
 Product areas affected
 Finance and operations apps
