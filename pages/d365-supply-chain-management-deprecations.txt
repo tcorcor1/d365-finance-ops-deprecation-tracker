@@ -1,4 +1,4 @@
-# Removed or deprecated features in Dynamics 365 Supply Chain Management  Article  11/11/2024  15 contributorsFeedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
+# Removed or deprecated features in Dynamics 365 Supply Chain Management  Article  01/07/2025  15 contributorsFeedback## In this articleThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and might be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -22,7 +22,7 @@ Deployment option
 Cloud and on-premises
 
 Status
-Removed. If you haven't enabled the old Register material consumption on the production floor execution interface (WMS-enabled) feature, then you'll only see the newer feature in feature management. If you have enabled the old feature, you'll still be able to use it, but you'll soon be contacted by Microsoft Support with instructions on how to replace it with the newer Register material consumption as complete and edit dimensions on the production floor execution interface feature.
+Removed. As of Supply Chain Management version 10.0.41, if you never enabled the old Register material consumption on the production floor execution interface (WMS-enabled) feature, then you'll only see the newer Register material consumption as complete and edit dimensions on the production floor execution interface feature in feature management. If you previously enabled the old feature, you'll still be able to use it, but you'll soon be contacted by Microsoft Support with instructions on how to replace it with the newer feature.
 
 
 
@@ -43,7 +43,7 @@ Deployment option
 Cloud and on-premises
 
 Status
-Deprecated. Approximately one year after the release of version 10.0.41, the Pricing management module will no longer be supported and may eventually be removed from the product.
+Deprecated and will be removed in a future release. It is replaced by the Unified pricing management module, which offers nearly all of the same functionality as the deprecated Pricing management module, plus several important enhancements. Both the deprecated pricing management module and the Unified pricing management module use similar or identical navigation paths in the Supply Chain Management user interface, so only one of these modules can be active at a time. As of Supply Chain Management version 10.0.41, if you never enabled the deprecated pricing management module in your environment, only the Unified pricing management module will be available to you. If you have enabled the deprecated pricing management module, you can continue to use it until it is removed, but we recommend that you transition to the Unified pricing management module as soon as possible to take advantage of the new features and enhancements that it offers. For help transitioning from the deprecated pricing management module to the Unified pricing management module, please contact Microsoft Support.
 
 
 
