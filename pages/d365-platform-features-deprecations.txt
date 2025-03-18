@@ -1,4 +1,4 @@
-# Removed or deprecated platform features  Article  02/25/2025  12 contributorsFeedback## In this articleThis article describes removed features, or features that are planned for removal in platform updates of finance and operations apps.
+# Removed or deprecated platform features  Article  03/17/2025  12 contributorsFeedback## In this articleThis article describes removed features, or features that are planned for removal in platform updates of finance and operations apps.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and may be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -110,7 +110,7 @@ Replaced by another feature?
 Microsoft Entra ID based authentication.
 
 What do you need to do?
-This change impacts the following set of functionalities.  1. The SQL Connection string acquired by third-party code that isn't using any platforms public API present in platform.  Recommendation: Switch to public API rather than reading it directly from config.  2. Long-running transactions that run for several hours. Recommendation: Reduce the time the connection is opened and keep the transactions as short-lived as possible.   NOTE: LBD and CHE environments still use password-based authentication.
+This change has an impact on the following set of functionalities.  1. The SQL Connection string acquired by third-party code that isn't using any platforms public API present in platform.  Recommendation: Use the public API instead of reading directly from the configuration. The OdbcConnection is no longer supported, Please migrate to the supported connection types: Connection or UserConnection. 2. Long-running transactions that run for several hours. Recommendation: Reduce the time the connection is opened and keep the transactions as short-lived as possible.   NOTE: LBD and CHE environments still use password-based authentication.
 
 Product areas affected
 Finance and operations apps
