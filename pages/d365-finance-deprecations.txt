@@ -6,7 +6,30 @@ Note
 
 Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e/global/axtechrefrep_6). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of finance and operations apps.
 
-## Features removed or deprecated in the Finance 10.0.43 release### Making Tax Digital â VAT return submission in the United Kingdom for on-premises deployments
+## Features removed or deprecated in the Finance 10.0.43 release### Sales tax report for Belgium, Purchase sales tax transactions, Sales tax transactions re sales, Additional sales tax report boxes (design based on reporting codes), and Belgium report layout.Reconciliation reports for Belgium (./localizations/belgium/emea-bel-reconciliation-report)
+
+
+
+
+Reason for deprecation/removal
+Replaced with a new value-added tax (VAT) declaration design, VAT declaration (Belgium).
+
+Replaced by another feature?
+Yes
+
+Product areas affected
+Application
+
+Deployment option
+All
+
+Status
+Deprecated: By March 15, 2026, the Sales tax report for Belgium, Purchase sales tax transactions, Sales tax transactions re sales, Additional sales tax report boxes (design based on reporting codes), Belgium report layout won't be supported. New VAT declaration XML (BE) and VAT declaration Excel (BE) Electronic reporting (ER) formats are introduced under the Tax declaration model.
+
+
+
+
+### Making Tax Digital â VAT return submission in the United Kingdom for on-premises deployments
 
 
 Reason for deprecation/removal
