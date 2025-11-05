@@ -1,4 +1,6 @@
-# Removed or deprecated features in Dynamics 365 CommerceImportant
+# Removed or deprecated features in Dynamics 365 CommerceThe Retail Interest Group by Dynamics 365 Commerce has moved from Yammer to Viva Engage. If you don't have access to the new Viva Engage community, fill out this form (https://aka.ms/JoinD365commerceVivaEngageCommunity (ttps://aka.ms/JoinD365commerceVivaEngageCommunit)) to be added and stay engaged in the latest discussions.
+
+Important
 
 Some or all of the functionality noted in this article is available as part of a preview release. The content and the functionality are subject to change. For more information about preview releases, see One version service updates FAQ (./../fin-ops-core/fin-ops/get-started/one-versio).
 
