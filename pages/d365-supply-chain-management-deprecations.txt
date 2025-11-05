@@ -1,4 +1,6 @@
-# Removed or deprecated features in Dynamics 365 Supply Chain ManagementThis article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
+# Removed or deprecated features in Dynamics 365 Supply Chain ManagementThe community interest groups have now moved from Yammer to Viva Engage. If you don't have access to the new Viva Engage community, click (https://forms.office.com/r/qe94aGXWgp (ttps://forms.office.com/r/qe94aGXWg)), and select the required group to be added and stay engaged in the latest discussions.
+
+This article will be updated as new removed or deprecated features are documented for Dynamics 365 Supply Chain Management.
 
   A   removed   feature is no longer available in the product.  A   deprecated   feature isn't in active development and might be removed in a future update.This list is intended to help you consider these removals and deprecations for your own planning.
 
