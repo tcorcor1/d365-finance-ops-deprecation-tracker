@@ -26,7 +26,7 @@ Deployment option
 Cloud and on-premises
 
 Status
-Deprecated. The Data Integrator templates for Dynamics 365 Field Service will no longer be available after October 30, 2026. This integration works by synchronizing work orders, agreements, inventory, and projects between Field Service and Supply Chain Management. Instead, look to a simpler, more integrated Field Service experience. Learn more in Connect Field Service to finance and operations and Link work orders to projects for unified financials.
+Deprecated. The Data Integrator templates for Dynamics 365 Field Service will no longer be available after February 28, 2027. This integration works by synchronizing work orders, agreements, inventory, and projects between Field Service and Supply Chain Management. Instead, look to a simpler, more integrated Field Service experience. Learn more in Connect Field Service to finance and operations and Link work orders to projects for unified financials.
 
 
 
