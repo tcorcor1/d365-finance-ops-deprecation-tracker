@@ -8,7 +8,7 @@ This article describes removed features, or features that are planned for remova
 
 Detailed information about objects in finance and operations apps can be found in the Technical reference reports (en-us/dynamics/s-e/global/axtechrefrep_6). You can compare the different versions of these reports to learn about objects that are changed or removed in each version of finance and operations apps.
 
-## Feature deprecation effective October 2025### The Data Integrator templates for Dynamics 365 Field Service will no longer be available after October 30, 2026
+## Feature deprecation effective February 2027### The Data Integrator templates for Dynamics 365 Field Service will no longer be available after February 28, 2027
 
 
 Reason for deprecation/removal
@@ -24,7 +24,7 @@ Deployment option
 Cloud and on-premises
 
 Status
-Deprecated. The Data Integrator templates for Dynamics 365 Field Service will no longer be available after October 30, 2026. This integration works by synchronizing work orders, agreements, inventory, and projects between Field Service and Supply Chain Management. Instead, look to a simpler, more integrated Field Service experience. Learn more in Connect Field Service to finance and operations and Link work orders to projects for unified financials.
+Deprecated. The Data Integrator templates for Dynamics 365 Field Service will no longer be available after February 28, 2027. This integration works by synchronizing work orders, agreements, inventory, and projects between Field Service and Supply Chain Management. Instead, look to a simpler, more integrated Field Service experience. Learn more in Connect Field Service to finance and operations and Link work orders to projects for unified financials.
 
 
 
@@ -53,7 +53,7 @@ Dynamics 365 Translation Service deprecated, and will reach end-of-support on Oc
 
 
 
-### Anonymous access is disabled for Finance and Operations managed storage accounts.
+### Anonymous access is disabled for Finance and Operations managed storage accounts
 
 
 Reason for deprecation/removal
@@ -101,7 +101,7 @@ Starting July 1, 2025, the changes will be automatically applied to all newly cr
 
 
 
-### Platform is changing the authentication protocol from password based auth to Microsoft Entra ID based authentication for 10.0.39 and greater releases.
+### Platform is changing the authentication protocol from password based auth to Microsoft Entra ID based authentication for 10.0.39 and greater releases
 
 
 Reason for deprecation/removal
@@ -223,7 +223,7 @@ The rollout of this change is being done in phases, beginning with sandbox envir
 
 
 
-### Microsoft will no longer ship or support the Visual Studio extensions for finance and operations apps, Power Platform tools, and Visual Studio versions prior to 2022.
+### Microsoft will no longer ship or support the Visual Studio extensions for finance and operations apps, Power Platform tools, and Visual Studio versions prior to 2022
 
 
 Reason for deprecation/removal
