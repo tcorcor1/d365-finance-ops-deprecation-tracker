@@ -120,7 +120,7 @@ Deprecated: By November 1, 2026, the SIE export format (SE) ER format and SIE ex
 
 
 
-Reason for deprecation or removal
+Reason for deprecation/removal
 Replaced with Fiscal Journal in Electronic Reporting ER format. For more information, see Fiscal Journal for Italy
 
 Replaced by another feature?
