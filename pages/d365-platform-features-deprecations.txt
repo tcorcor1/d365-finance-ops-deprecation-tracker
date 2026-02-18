@@ -96,7 +96,7 @@ Deployment option
 All
 
 Status
-Starting July 1, 2025, the changes will be automatically applied to all newly created environments. Rollout for the change has started in the existing Sandbox environments from April 15, 2025 to July 31, 2025. Following this, in the Production environments from May 1, 2025 to August 31, 2025 in a phased manner based on the PQU schedules. Changes are backported to 10.0.42 (PU66) and all later releases. No exceptions will be provided for any environments. For more information, and for updates about this change, see Finance and operations storage account security updates.
+This change is now live across all applicable environments. As a result, all legacy mechanisms that rely on storage account connection strings or shared keyâbased authentication will no longer work. Customers must use Managed Identityâbased authentication and supported platform APIs for all interactions with Finance and Operationsâmanaged storage accounts. Any integrations, customizations, or thirdâparty solutions that continue to rely on deprecated approaches will fail. This change is enforced on all environments running version 10.0.43 (PU67) and later, with no exceptions. Customers are required to update their implementations immediately to ensure continued functionality. For more information, and for updates about this change, see Finance and operations storage account security updates.
 
 
 
@@ -218,7 +218,7 @@ Deployment option
 All
 
 Status
-The rollout of this change is being done in phases, beginning with sandbox environments. The change will then be applied in production environments for tenants that were created after August 19, 2024. The full rollout is estimated in October 2024. Changes will be backported to 10.0.39 (PU63) and all later releases. The method will be fully deprecated for all finance and operations customers in 10.0.43 (PU67) service updates (March 2025). For more information, see the service updates schedule.For updates, see Finance and operations storage account security updates.
+The phased rollout of this change is fully completed across all applicable environments.For updates, see Finance and operations storage account security updates.
 
 
 
