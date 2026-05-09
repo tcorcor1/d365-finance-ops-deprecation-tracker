@@ -29,6 +29,27 @@ Deprecated. The Data Integrator templates for Dynamics 365 Field Service will no
 
 
 
+## Features removed effective September 2026### Follow-up questions in the Copilot sidecar (preview)
+
+
+Reason for deprecation/removal
+Microsoft has decided not to continue development on this preview feature.
+
+Replaced by another feature?
+No
+
+Product areas affected
+Microsoft finance and operations applications
+
+Deployment option
+Cloud and on-premises
+
+Status
+Removed. This preview feature was never made generally available and is now completely removed from all finance and operations applications.
+
+
+
+
 ## Feature deprecation effective February 2026### New Lifecycle Services project creation frozen for new customers
 
 
