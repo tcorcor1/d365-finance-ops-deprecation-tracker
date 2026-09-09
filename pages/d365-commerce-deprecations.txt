@@ -188,7 +188,7 @@ Reason for deprecation/removal
 The Dynamics 365 Commerce team has analyzed the usage and uptake of the Commerce analytics (Preview) feature, and a decision has been made to no longer move forward in bringing the feature to general availability.
 
 Replaced by another feature?
-At this time, Commerce analytics (Preview) won't be replaced by another feature or solution. The export of raw transactions and master data from finance and operations apps to Azure Data Lake continues to be available, as explained in Export to Data Lake in finance and operations apps. Partners and customers can leverage that data stream to author any intended analytics reports for their business needs.
+At this time, Commerce analytics (Preview) isn't replaced by another feature or solution. The export of raw transactions and master data from finance and operations apps to Azure Data Lake continues to be available, as explained in Export to Data Lake in finance and operations apps. Partners and customers can leverage that data stream to author any intended analytics reports for their business needs.
 
 Product areas affected
 Commerce analytics (Preview)
